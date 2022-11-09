@@ -1,21 +1,102 @@
 {
-	"casos":
+	"topnavmenu":
 		[
 			{
-				"img": "assets/img/img1.jpg",
-				"title": "Company"
+				"text": "Deportes",
+				"src": "#"
 			},
 			{
-				"img": "assets/img/img2.jpg",
-				"title": "Company"
+				"text": "Apuestas en vivo",
+				"src": "#"
 			},
 			{ 
-				"img": "assets/img/img3.jpg",
-				"title": "Company"
+				"text": "Casino",
+				"src": "#"
 			},
 			{
-				"img": "assets/img/img4.jpg",
-				"title": "Company"
+				"text": "Caballos",
+				"src": "#"
+			},
+			{ 
+				"text": "Peleas de Gallos",
+				"src": "#"
+			},
+			{
+				"text": "Banca",
+				"src": "#"
+			}
+		],
+		"footermenu01":
+		[
+			{
+				"text": "Deportes en linea",
+				"src": "#"
+			},
+			{
+				"text": "Casino en linea",
+				"src": "#"
+			},
+			{ 
+				"text": "Caballos en linea",
+				"src": "#"
+			},
+			{
+				"text": "Sign me up!",
+				"src": "#"
+			},
+			{ 
+				"text": "About Us",
+				"src": "#"
+			}
+		],
+		"footermenu02":
+		[
+			{
+				"text": "Banca",
+				"src": "#"
+			},
+			{
+				"text": "Bonos y promociones",
+				"src": "#"
+			},
+			{ 
+				"text": "Agentes",
+				"src": "#"
+			},
+			{
+				"text": "Afiliados",
+				"src": "#"
+			}
+		],
+		"footermenu03":
+		[
+			{
+				"text": "Terminos y Condiciones",
+				"src": "#"
+			},
+			{
+				"text": "Juego Responsable",
+				"src": "#"
+			},
+			{ 
+				"text": "Autoexclusión",
+				"src": "#"
+			},
+			{
+				"text": "Politica de Reclamos",
+				"src": "#"
+			},
+			{
+				"text": "AML",
+				"src": "#"
+			},
+			{ 
+				"text": "Juego Justo",
+				"src": "#"
+			},
+			{
+				"text": "Politica de Privacidad",
+				"src": "#"
 			}
 		]
 }
