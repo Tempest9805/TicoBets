@@ -4003,7 +4003,7 @@ var tns = exports.tns = function tns(options) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.tnsSingle = exports.tnsCarousell = undefined;
+exports.tnsPromotion = exports.tnsSingle = exports.tnsCarousell = undefined;
 
 var _tinySlider = require('../../../node_modules/tiny-slider/src/tiny-slider');
 
@@ -4033,9 +4033,6 @@ var tnsCarousell = exports.tnsCarousell = function tnsCarousell() {
       },
       1120: {
         items: 8
-      },
-      1280: {
-        items: 9
       }
     }
   });
@@ -4050,6 +4047,28 @@ var tnsSingle = exports.tnsSingle = function tnsSingle() {
     mode: 'gallery',
     mouseDrag: true,
     controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
+  });
+};
+
+var tnsPromotion = exports.tnsPromotion = function tnsPromotion() {
+  var slider = (0, _tinySlider.tns)({
+    container: '#tnsPromotion',
+    items: 1,
+    slideBy: 1,
+    swipeAngle: false,
+    speed: 400,
+    edgePadding: 40,
+    nav: false,
+    mouseDrag: true,
+    controlsText: ['<i class="tns-promotion__prev fas fa-chevron-left"></i>', '<i class="tns-promotion__next fas fa-chevron-right"></i>'],
+    responsive: {
+      320: {
+        items: 1
+      },
+      960: {
+        items: 3
+      }
+    }
   });
 };
 
@@ -4087,6 +4106,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _tnsSlider.tnsCarousell)();
 	if (document.body.classList.contains('home')) {
 		(0, _tnsSlider.tnsSingle)();
+		(0, _tnsSlider.tnsPromotion)();
 	}
 })();
 

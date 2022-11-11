@@ -1,7 +1,5 @@
 mixin metodoPago(src)
-    div
-        div(class='tns-carousell__content')
-            img(class="tns-carousell__img", src=`${src}`, alt="metodo pago")
+    div: div(class='tns-carousell__content'): img(class="tns-carousell__img", src=`${src}`, alt="metodo pago")
 -for (var i = 0; i < metodoPago.length; i++)
     -var d = metodoPago[i]
     +metodoPago(d.src)

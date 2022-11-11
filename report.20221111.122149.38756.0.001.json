@@ -1,0 +1,302 @@
+
+{
+  "header": {
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20221111.122149.38756.0.001.json",
+    "dumpEventTime": "2022-11-11T12:21:49Z",
+    "processId": 38756,
+    "cwd": "C:\\Users\\nixon\\Documents\\GitHub\\MoneyBets",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Program Files/nodejs/node_modules/gulp-cli/bin/gulp.js",
+      "dev"
+    ],
+    "nodejsVersion": "v11.15.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "11.15.0",
+      "v8": "7.0.276.38-node.19",
+      "uv": "1.27.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "67",
+      "nghttp2": "1.37.0",
+      "napi": "4",
+      "llhttp": "1.1.1",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1b",
+      "cldr": "34.0",
+      "icu": "63.1",
+      "tz": "2018e",
+      "unicode": "11.0"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v11.15.0/node-v11.15.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v11.15.0/node-v11.15.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v11.15.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.22000",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "host": "MD-PF37G6S3"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff71212d24e",
+      "symbol": "std::basic_ios<char,std::char_traits<char> >::fill+16366"
+    },
+    {
+      "pc": "0x00007ff71212c0f9",
+      "symbol": "std::basic_ios<char,std::char_traits<char> >::fill+11929"
+    },
+    {
+      "pc": "0x00007ff71212b923",
+      "symbol": "std::basic_ios<char,std::char_traits<char> >::fill+9923"
+    },
+    {
+      "pc": "0x00007ff71221dc22",
+      "symbol": "uv_loop_fork+89362"
+    },
+    {
+      "pc": "0x00007ff71264609e",
+      "symbol": "v8::internal::FatalProcessOutOfMemory+798"
+    },
+    {
+      "pc": "0x00007ff712645fd7",
+      "symbol": "v8::internal::FatalProcessOutOfMemory+599"
+    },
+    {
+      "pc": "0x00007ff7126f9a14",
+      "symbol": "v8::internal::Heap::RootIsImmortalImmovable+14068"
+    },
+    {
+      "pc": "0x00007ff7126ef822",
+      "symbol": "v8::internal::Heap::CollectGarbage+7234"
+    },
+    {
+      "pc": "0x00007ff7126ee038",
+      "symbol": "v8::internal::Heap::CollectGarbage+1112"
+    },
+    {
+      "pc": "0x00007ff7126f7967",
+      "symbol": "v8::internal::Heap::RootIsImmortalImmovable+5703"
+    },
+    {
+      "pc": "0x00007ff7126f79e6",
+      "symbol": "v8::internal::Heap::RootIsImmortalImmovable+5830"
+    },
+    {
+      "pc": "0x00007ff71282f8b1",
+      "symbol": "v8::internal::Factory::NewFillerObject+49"
+    },
+    {
+      "pc": "0x00007ff7128e9786",
+      "symbol": "v8::internal::StoreBuffer::StoreBufferOverflow+27190"
+    },
+    {
+      "pc": "0x00000101e0bd0481",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 1526325248,
+    "totalCommittedMemory": 1526325248,
+    "usedMemory": 1479054200,
+    "availableMemory": 2789672,
+    "memoryLimit": 1526909922,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 524288,
+        "committedMemory": 524288,
+        "capacity": 515584,
+        "used": 33520,
+        "available": 482064
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16498688,
+        "used": 16426328,
+        "available": 72360
+      },
+      "old_space": {
+        "memorySize": 1481314304,
+        "committedMemory": 1481314304,
+        "capacity": 1456647960,
+        "used": 1454584232,
+        "available": 2063728
+      },
+      "code_space": {
+        "memorySize": 1572864,
+        "committedMemory": 1572864,
+        "capacity": 930624,
+        "used": 930624,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 2633728,
+        "committedMemory": 2633728,
+        "capacity": 1738720,
+        "used": 1738720,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 6725632,
+        "committedMemory": 6725632,
+        "capacity": 5512296,
+        "used": 5340776,
+        "available": 171520
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 18.375,
+    "kernelCpuSeconds": 1,
+    "cpuConsumptionPercent": 129.167,
+    "maxRss": 1572573184,
+    "pageFaults": {
+      "IORequired": 471938,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 3675,
+      "writes": 127
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ACLOCAL_PATH": "C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\mingw64\\share\\aclocal;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\usr\\share\\aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\itlap\\AppData\\Roaming",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "MD-PF37G6S3",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CONFIG_SITE": "C:/Users/nixon/AppData/Local/Programs/Git/etc/config.site",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "133046275543047463",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "DISPLAY": "needs-to-be-defined",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "C:\\Users\\nixon\\AppData\\Local\\Programs\\Git",
+    "HOME": "C:\\Users\\itlap",
+    "HOSTNAME": "MD-PF37G6S3",
+    "INFOPATH": "C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\usr\\local\\info;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\usr\\share\\info;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\usr\\info;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\share\\info",
+    "INIT_CWD": "C:\\Users\\nixon\\Documents\\GitHub\\MoneyBets",
+    "LC_CTYPE": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\itlap\\AppData\\Local",
+    "MANPATH": "C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\mingw64\\local\\man;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\mingw64\\share\\man;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\usr\\local\\man;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\usr\\share\\man;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\usr\\man;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\share\\man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "C:/Users/nixon/AppData/Local/Programs/Git/mingw64",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "C:/Users/nixon/AppData/Local/Programs/Git/mingw64",
+    "NUMBER_OF_PROCESSORS": "8",
+    "NVM_HOME": "C:\\Users\\itlap\\AppData\\Roaming\\nvm",
+    "NVM_SYMLINK": "C:\\Program Files\\nodejs",
+    "OLDPWD": "C:/Users/nixon",
+    "ORIGINAL_PATH": "C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\mingw64\\bin;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\usr\\bin;C:\\Users\\itlap\\bin;C:\\Python310\\Scripts;C:\\Python310;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\ProgramData\\chocolatey\\bin;C:\\ProgramData\\nodejs;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\usr\\bin;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\mingw64\\libexec\\git-core;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\mingw64\\bin;C:\\Users\\itlap\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Users\\itlap\\AppData\\Local\\Microsoft\\WindowsApps",
+    "ORIGINAL_TEMP": "C:/Users/itlap/AppData/Local/Temp",
+    "ORIGINAL_TMP": "C:/Users/itlap/AppData/Local/Temp",
+    "OS": "Windows_NT",
+    "OneDrive": "C:\\Users\\itlap\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\itlap\\OneDrive",
+    "PATH": "C:\\Users\\itlap\\bin;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\mingw64\\bin;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\usr\\local\\bin;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\usr\\bin;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\usr\\bin;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\mingw64\\bin;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\usr\\bin;C:\\Users\\itlap\\bin;C:\\Python310\\Scripts;C:\\Python310;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\ProgramData\\chocolatey\\bin;C:\\ProgramData\\nodejs;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\usr\\bin;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\mingw64\\libexec\\git-core;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\mingw64\\bin;C:\\Users\\itlap\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Users\\itlap\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\usr\\bin\\vendor_perl;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW",
+    "PKG_CONFIG_PATH": "C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\mingw64\\lib\\pkgconfig;C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\mingw64\\share\\pkgconfig",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "8c01",
+    "PROGRAMFILES": "C:\\Program Files",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "C:/Users/nixon/Documents/GitHub/MoneyBets",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "SHELL": "C:\\Users\\nixon\\AppData\\Local\\Programs\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "2",
+    "SSH_ASKPASS": "C:/Users/nixon/AppData/Local/Programs/Git/mingw64/bin/git-askpass.exe",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\itlap\\AppData\\Local\\Temp",
+    "TERM": "xterm",
+    "TERM_PROGRAM": "mintty",
+    "TERM_PROGRAM_VERSION": "3.6.1",
+    "TMP": "C:\\Users\\itlap\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\itlap\\AppData\\Local\\Temp",
+    "USERDOMAIN": "MD-PF37G6S3",
+    "USERNAME": "itlap",
+    "USERPROFILE": "C:\\Users\\itlap",
+    "WINDIR": "C:\\WINDOWS",
+    "ZES_ENABLE_SYSMAN": "1",
+    "_": "C:/Users/itlap/AppData/Roaming/nvm/v11.15.0/node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "\\\\?\\C:\\Users\\nixon\\Documents\\GitHub\\MoneyBets\\node_modules\\node-sass\\vendor\\win32-x64-67\\binding.node",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\nlansp_c.dll"
+  ]
+}

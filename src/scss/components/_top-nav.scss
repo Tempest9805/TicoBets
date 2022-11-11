@@ -72,7 +72,10 @@
 		@include fromTo(s, l) {
 			display: block;
 		}
-
+		&:hover{
+			color: var(--color-white);
+			text-decoration: none;
+		}
 	}
 
 	&__mb-iconMenu {

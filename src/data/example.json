@@ -73,23 +73,6 @@
 			]
 		},
 		{
-			"title": "",
-			"footerColum": [
-				{
-					"text": "Reglas de la casa",
-					"src": "#"
-				},
-				{
-					"text": "Reglas de Deportes",
-					"src": "#"
-				},
-				{
-					"text": "reglas de Casino",
-					"src": "#"
-				}
-			]
-		},
-		{
 			"title": "LEGAL",
 			"footerColum": [
 				{
@@ -121,6 +104,34 @@
 					"src": "#"
 				}
 			]
+		},
+		{
+			"title": "",
+			"footerColum": [
+				{
+					"text": "Reglas de la casa",
+					"src": "#"
+				},
+				{
+					"text": "Reglas de Deportes",
+					"src": "#"
+				},
+				{
+					"text": "reglas de Casino",
+					"src": "#"
+				}
+			]
+		}
+	],
+	"socialicon": [
+		{
+			"src": "assets/img/icon_32.png"
+		},
+		{
+			"src": "assets/img/icon_32.png"
+		},
+		{
+			"src": "assets/img/icon_32.png"
 		}
 	],
 	"sliderHome": [

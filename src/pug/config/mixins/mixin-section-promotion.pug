@@ -1,6 +1,6 @@
-mixin sectionBonus(img, src)
-    a(href=`${src}`)
-        img(class="section-promotions__img", src=`${img}`, alt="image promotion")
+mixin homeBonus(img, src)
+    div: div(class='tns-promotion__content'): a(href=`${src}`)
+        img(class="tns-promotion__img", src=`${img}`, alt="bonus image")
 -for (var i = 0; i < homeBonus.length; i++)
     -var d = homeBonus[i]
-    +sectionBonus(d.img, d.src)
+    +homeBonus(d.img, d.src)

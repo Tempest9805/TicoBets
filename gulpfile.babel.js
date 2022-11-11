@@ -201,7 +201,7 @@ gulp.task('sitemap', () => {
 		read: false
 	})
 		.pipe(sitemap({
-			siteUrl: '#' // remplazar por tu dominio
+			siteUrl: 'https://Nixon-fj.github.io/MoneyBets' // remplazar por tu dominio
 		}))
 		.pipe(gulp.dest('./public'))
 });
