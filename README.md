@@ -11,3 +11,5 @@ Instructions:
 * ```gulp dev``` for develop environment
 * ```gulp build``` before deployment
 * ```npm run deploy``` to publish the site in gh pages
+
+https://Nixon-fj.github.io/MoneyBets
