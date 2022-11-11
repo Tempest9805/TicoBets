@@ -1,5 +1,6 @@
 .tns-outer{
     position                : relative;
+    margin-bottom           : 2rem;
     .tns-controls{ 
       position              : absolute;
       z-index               : 1;
@@ -25,19 +26,20 @@
       position              : absolute;
       z-index               : 1;
       width                 : 100%;
-      bottom                : 0;
+      height                : 2rem;
+      bottom                : -2rem;
       text-align            : center;
-      margin                : 10px 0;
+      background-color      : #222;
       [aria-controls] {
-        width               : 9px;
-        height              : 9px;
+        width               : 25px;
+        height              : 4px;
         padding             : 0;
         margin              : 0 5px;
-        border-radius       : 50%;
+        border-radius       : 5px;
         background          : #ddd;
         border              : 0;
       }
-      > .tns-nav-active     { background: #999; }
+      > .tns-nav-active     { background: rgb(195, 150, 5); }
       &__nav-controls{
         position            : absolute;
         width               : 100%;

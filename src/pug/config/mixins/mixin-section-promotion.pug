@@ -1,0 +1,6 @@
+mixin sectionBonus(img, src)
+    a(href=`${src}`)
+        img(class="section-promotions__img", src=`${img}`, alt="image promotion")
+-for (var i = 0; i < homeBonus.length; i++)
+    -var d = homeBonus[i]
+    +sectionBonus(d.img, d.src)

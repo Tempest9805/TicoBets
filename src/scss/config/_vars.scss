@@ -7,20 +7,15 @@
 	}
 
 	//native color vars
-	--color-first: #007BDF;
-	--color-second: #00CBFF;
-	--color-third: #FF3C32;
-	--color-accent: #FBA905;
-	--color-dark: #282D31;
-	--color-border: #DFE0E0;
-	--color-light: #EAEAEA;
-	--color-text-white: #FFFFFF;
-	--color-text-gray: #53575A;
-	--color-body-bg: #F6F6F6;
+	--color-bg			: rgb(200, 200, 200);
+	--color-black		: #222;
+	--color-white		: #fff;
+	--color-ligthgray	: rgb(190, 190, 190);
+	--color-yellow		: rgb(200, 170, 50);
+	--color-text		: rgb(200, 170, 50);
+	--color-blue		: blue;
 
 	// Font families
-	--main-font: Lato;
-	--alternate-font: sans-serif;
 	--font-size: 16px;
 	--line-height: 1.6;
 }

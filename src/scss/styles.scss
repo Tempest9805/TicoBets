@@ -4,16 +4,7 @@
 @import "~tiny-slider/src/tiny-slider.scss";
 @import "libraries/animate";
 // Configuraciones
-$fractions : 1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9,
-10;
+$fractions : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10;
 $breakpoints : (s: 0,
 	m: 640px,
 	l: 960px,
@@ -27,7 +18,6 @@ $breakpoints : (s: 0,
 @import "config/vars";
 @import "config/mixins";
 
-
 // LAYOUT
 // Escribe solo los estilos de layout (division en regiones del viewport)
 @import "layout/layout";
@@ -35,10 +25,5 @@ $breakpoints : (s: 0,
 // MODULES (SMACSS) O COMPONENTS (ITCSS)
 @import "components/components";
 
-
 // Utilities (hacks)
 @import "hacks/hacks";
-
-.banner2 {
-	background: #22303a;
-}

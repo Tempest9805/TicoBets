@@ -8,18 +8,15 @@
 
 html {
 	box-sizing 			: border-box;
-	font-family 		: var(--main-font), var(--alternate-font);
 	font-size 			: var(--font-size);
 	line-height 		:  var(--line-height);
-	color 				: var(--text-color);
-	background-color 	: var(--bg-modal-color);
+	color 				: var(--color-text);
+	background-color 	: var(--color-bg);
 }
 
-
-
 ::selection {
-	background-color 	: var(--color-first);
-	color 				: var(--color-text-white);
+	background-color 	: var(--color-bg);
+	color 				: var(--color-text);
 }
 
 body {
@@ -29,12 +26,4 @@ body {
 	display        		: flex;
 	flex-direction 		: column;
 	overflow-x 			: hidden;
-}
-
-.main-footer {
-	background 			: var(--color-first);
-	color      			: #FFF;
-	padding    			: 2rem 0;
-	font-size  			: fontSize(small);
-	margin-top 			: auto;
 }

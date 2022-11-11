@@ -37,7 +37,6 @@ export const tnsCarousell = () =>{
     }); 
 };
 
-
 export const tnsVertical = () =>{
   let slider = tns({ 
     container           : '#tnsVertical',
@@ -53,7 +52,6 @@ export const tnsVertical = () =>{
   }); 
 };
 
-
 export const tnsSingle = () =>{
   let slider = tns({ 
     container           : '#tnsSingle',
@@ -68,8 +66,6 @@ export const tnsSingle = () =>{
     ]
   }); 
 };
-
-
 
 export const tnsSyncing = () =>{
   let tnsSyncingFor = tns({
@@ -92,7 +88,4 @@ export const tnsSyncing = () =>{
       }
     }
   }); 
-
-  
 };
-

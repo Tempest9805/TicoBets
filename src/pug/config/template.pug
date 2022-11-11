@@ -20,8 +20,10 @@ html(lang='en' prefix='og: http://ogp.me/ns#', class='no-js')
 			block main-header
 		main(class='main-container')
 			block main-container
+			include ../components/carousel-mp
 		footer(class='main-footer')
 			block main-footer
+			include ../components/footer-nav
 		//- include ../components/bottom-nav
 		script(src="assets/js/scripts-min.js")
 		block scripts

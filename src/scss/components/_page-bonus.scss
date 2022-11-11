@@ -1,0 +1,5 @@
+.section-bonus{
+    &__item:first-child{
+        grid-row: span 2;
+    }
+}

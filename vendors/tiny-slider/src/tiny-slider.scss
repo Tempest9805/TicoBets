@@ -38,7 +38,7 @@
   &.tns-carousel {
     &.tns-no-subpixel {
       > .tns-item {
-        margin-right: -100%;
+        margin-right: 0;
       }
     }
   }

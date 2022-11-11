@@ -1,102 +1,214 @@
 {
-	"topnavmenu":
-		[
-			{
-				"text": "Deportes",
-				"src": "#"
-			},
-			{
-				"text": "Apuestas en vivo",
-				"src": "#"
-			},
-			{ 
-				"text": "Casino",
-				"src": "#"
-			},
-			{
-				"text": "Caballos",
-				"src": "#"
-			},
-			{ 
-				"text": "Peleas de Gallos",
-				"src": "#"
-			},
-			{
-				"text": "Banca",
-				"src": "#"
-			}
-		],
-		"footermenu01":
-		[
-			{
-				"text": "Deportes en linea",
-				"src": "#"
-			},
-			{
-				"text": "Casino en linea",
-				"src": "#"
-			},
-			{ 
-				"text": "Caballos en linea",
-				"src": "#"
-			},
-			{
-				"text": "Sign me up!",
-				"src": "#"
-			},
-			{ 
-				"text": "About Us",
-				"src": "#"
-			}
-		],
-		"footermenu02":
-		[
-			{
-				"text": "Banca",
-				"src": "#"
-			},
-			{
-				"text": "Bonos y promociones",
-				"src": "#"
-			},
-			{ 
-				"text": "Agentes",
-				"src": "#"
-			},
-			{
-				"text": "Afiliados",
-				"src": "#"
-			}
-		],
-		"footermenu03":
-		[
-			{
-				"text": "Terminos y Condiciones",
-				"src": "#"
-			},
-			{
-				"text": "Juego Responsable",
-				"src": "#"
-			},
-			{ 
-				"text": "Autoexclusión",
-				"src": "#"
-			},
-			{
-				"text": "Politica de Reclamos",
-				"src": "#"
-			},
-			{
-				"text": "AML",
-				"src": "#"
-			},
-			{ 
-				"text": "Juego Justo",
-				"src": "#"
-			},
-			{
-				"text": "Politica de Privacidad",
-				"src": "#"
-			}
-		]
+	"topnavmenu": [
+		{
+			"text": "Deportes",
+			"src": "#"
+		},
+		{
+			"text": "Apuestas en vivo",
+			"src": "#"
+		},
+		{
+			"text": "Casino",
+			"src": "#"
+		},
+		{
+			"text": "Caballos",
+			"src": "#"
+		},
+		{
+			"text": "Peleas de Gallos",
+			"src": "#"
+		},
+		{
+			"text": "Banca",
+			"src": "#"
+		}
+	],
+	"footerMenu": [
+		{
+			"title": "",
+			"footerColum": [
+				{
+					"text": "Deportes en linea",
+					"src": "#"
+				},
+				{
+					"text": "Casino en linea",
+					"src": "#"
+				},
+				{
+					"text": "Caballos en linea",
+					"src": "#"
+				},
+				{
+					"text": "Registrate Aqui",
+					"src": "#"
+				},
+				{
+					"text": "Acerca de Nosotros",
+					"src": "#"
+				}
+			]
+		},
+		{
+			"title": "",
+			"footerColum": [
+				{
+					"text": "Banca",
+					"src": "#"
+				},
+				{
+					"text": "Bonos y Promociones",
+					"src": "/bonus.html"
+				},
+				{
+					"text": "Agentes",
+					"src": "#"
+				},
+				{
+					"text": "Afiliados",
+					"src": "#"
+				}
+			]
+		},
+		{
+			"title": "",
+			"footerColum": [
+				{
+					"text": "Reglas de la casa",
+					"src": "#"
+				},
+				{
+					"text": "Reglas de Deportes",
+					"src": "#"
+				},
+				{
+					"text": "reglas de Casino",
+					"src": "#"
+				}
+			]
+		},
+		{
+			"title": "LEGAL",
+			"footerColum": [
+				{
+					"text": "Terminos y Condiciones",
+					"src": "#"
+				},
+				{
+					"text": "Juego Responsable",
+					"src": "#"
+				},
+				{
+					"text": "Autoexclusion",
+					"src": "#"
+				},
+				{
+					"text": "Politica de Reclamos",
+					"src": "#"
+				},
+				{
+					"text": "AML",
+					"src": "#"
+				},
+				{
+					"text": "Juego Justo",
+					"src": "#"
+				},
+				{
+					"text": "Politica de Privacidad",
+					"src": "#"
+				}
+			]
+		}
+	],
+	"sliderHome": [
+		{
+			"src": "assets/img/img1.jpg"
+		},
+		{
+			"src": "assets/img/img4.jpg"
+		},
+		{
+			"src": "assets/img/img3.jpg"
+		},
+		{
+			"src": "assets/img/img4.jpg"
+		}
+	],
+	"metodoPago": [
+		{
+			"src": "assets/img/icon_64.png"
+		},
+		{
+			"src": "assets/img/icon_64.png"
+		},
+		{
+			"src": "assets/img/icon_64.png"
+		},
+		{
+			"src": "assets/img/icon_64.png"
+		},
+		{
+			"src": "assets/img/icon_64.png"
+		},
+		{
+			"src": "assets/img/icon_64.png"
+		},
+		{
+			"src": "assets/img/icon_64.png"
+		},
+		{
+			"src": "assets/img/icon_64.png"
+		}
+	],
+	"homeBonus": [
+		{
+			"img": "assets/img/img2.jpg",
+			"src": "/bonus.html"
+		},
+		{
+			"img": "assets/img/img3.jpg",
+			"src": "/bonus.html"
+		},
+		{
+			"img": "assets/img/img4.jpg",
+			"src": "/bonus.html"
+		}
+	],
+	"bonuses": [
+		{
+			"img": "assets/img/icon_128.png",
+			"src": "#"
+		},
+		{
+			"img": "assets/img/icon_128.png",
+			"src": "#"
+		},
+		{
+			"img": "assets/img/icon_128.png",
+			"src": "#"
+		},
+		{
+			"img": "assets/img/icon_128.png",
+			"src": "#"
+		},
+		{
+			"img": "assets/img/icon_128.png",
+			"src": "#"
+		},
+		{
+			"img": "assets/img/icon_128.png",
+			"src": "#"
+		},
+		{
+			"img": "assets/img/icon_128.png",
+			"src": "#"
+		},
+		{
+			"img": "assets/img/icon_128.png",
+			"src": "#"
+		}
+	]
 }

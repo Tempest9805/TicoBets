@@ -6,12 +6,14 @@
       background        :var(--color-third);
     }
     &__content{
-      height            : 70vh;
       background        : transparent;
       display           : flex;
       justify-content   : center;
       flex-direction    : column;
       align-items       : center;
       span{color        : white;}
+    }
+    &__img{
+      max-height: 45vh;
     }
   }
