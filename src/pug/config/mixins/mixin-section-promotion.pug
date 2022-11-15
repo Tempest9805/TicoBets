@@ -3,4 +3,4 @@ mixin homeBonus(img, src)
         img(class="tns-promotion__img", src=`${img}`, alt="bonus image")
 -for (var i = 0; i < homeBonus.length; i++)
     -var d = homeBonus[i]
-    +homeBonus(d.img, d.src)
+    +homeBonus(d.img, d.src) 

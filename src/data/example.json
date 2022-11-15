@@ -191,35 +191,35 @@
 	"bonuses": [
 		{
 			"img": "assets/img/icon_128.png",
-			"src": "#"
+			"src": "#bonus"
 		},
 		{
 			"img": "assets/img/icon_128.png",
-			"src": "#"
+			"src": "#bonus"
 		},
 		{
 			"img": "assets/img/icon_128.png",
-			"src": "#"
+			"src": "#bonus"
 		},
 		{
 			"img": "assets/img/icon_128.png",
-			"src": "#"
+			"src": "#bonus"
 		},
 		{
 			"img": "assets/img/icon_128.png",
-			"src": "#"
+			"src": "#bonus"
 		},
 		{
 			"img": "assets/img/icon_128.png",
-			"src": "#"
+			"src": "#bonus"
 		},
 		{
 			"img": "assets/img/icon_128.png",
-			"src": "#"
+			"src": "#bonus"
 		},
 		{
 			"img": "assets/img/icon_128.png",
-			"src": "#"
+			"src": "#bonus"
 		}
 	]
 }

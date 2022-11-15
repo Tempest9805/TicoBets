@@ -3998,6 +3998,23 @@ var tns = exports.tns = function tns(options) {
 };
 
 },{"./helpers/addCSSRule.js":1,"./helpers/addClass.js":2,"./helpers/addEvents.js":3,"./helpers/arrayFromNodeList.js":4,"./helpers/caf.js":5,"./helpers/calc.js":6,"./helpers/checkStorageValue.js":7,"./helpers/createStyleSheet.js":9,"./helpers/events.js":11,"./helpers/extend.js":12,"./helpers/forEach.js":13,"./helpers/getAttr.js":14,"./helpers/getCssRulesLength.js":16,"./helpers/getEndProperty.js":17,"./helpers/getSlideId.js":18,"./helpers/getTouchDirection.js":19,"./helpers/has3DTransforms.js":20,"./helpers/hasAttr.js":21,"./helpers/hasClass.js":22,"./helpers/hideElement.js":23,"./helpers/isVisible.js":25,"./helpers/jsTransform.js":26,"./helpers/mediaquerySupport.js":27,"./helpers/percentageLayout.js":29,"./helpers/raf.js":30,"./helpers/removeAttrs.js":31,"./helpers/removeCSSRule.js":32,"./helpers/removeClass.js":33,"./helpers/removeEvents.js":34,"./helpers/setAttrs.js":36,"./helpers/setLocalStorage.js":38,"./helpers/showElement.js":39,"./helpers/toDegree.js":40,"./helpers/whichProperty.js":41}],43:[function(require,module,exports){
+"use strict";
+
+var modal = document.getElementById("modal-login");
+var btn = document.getElementById("btnlogin");
+var span = document.getElementsByClassName("login__close")[0];
+
+var openModal = function openModal() {
+    console.log("open");
+    modal.style.display = "block";
+};
+function closeModal() {
+    modal.style.display = "none";
+}
+btn.addEventListener('click', openModal);
+span.addEventListener('click', closeModal);
+
+},{}],44:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4014,7 +4031,6 @@ var tnsCarousell = exports.tnsCarousell = function tnsCarousell() {
     slideBy: 1,
     swipeAngle: false,
     speed: 400,
-    edgePadding: 40,
     nav: false,
     mouseDrag: true,
     controlsText: ['<i class="tns-carousell__prev fas fa-chevron-left"></i>', '<i class="tns-carousell__next fas fa-chevron-right"></i>'],
@@ -4057,7 +4073,6 @@ var tnsPromotion = exports.tnsPromotion = function tnsPromotion() {
     slideBy: 1,
     swipeAngle: false,
     speed: 400,
-    edgePadding: 40,
     nav: false,
     mouseDrag: true,
     controlsText: ['<i class="tns-promotion__prev fas fa-chevron-left"></i>', '<i class="tns-promotion__next fas fa-chevron-right"></i>'],
@@ -4072,7 +4087,7 @@ var tnsPromotion = exports.tnsPromotion = function tnsPromotion() {
   });
 };
 
-},{"../../../node_modules/tiny-slider/src/tiny-slider":42}],44:[function(require,module,exports){
+},{"../../../node_modules/tiny-slider/src/tiny-slider":42}],45:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4090,7 +4105,7 @@ var topNav = function topNav() {
 
 exports.default = topNav;
 
-},{}],45:[function(require,module,exports){
+},{}],46:[function(require,module,exports){
 'use strict';
 
 var _topNav = require('./components/topNav');
@@ -4099,17 +4114,26 @@ var _topNav2 = _interopRequireDefault(_topNav);
 
 var _tnsSlider = require('./components/tns-slider');
 
+var _modalLogin = require('./components/modal-login');
+
+var _modalLogin2 = _interopRequireDefault(_modalLogin);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// import bonus from './components/bonus';
+
 (function () {
+	_modalLogin2.default;
 	(0, _topNav2.default)();
-	(0, _tnsSlider.tnsCarousell)();
 	if (document.body.classList.contains('home')) {
 		(0, _tnsSlider.tnsSingle)();
 		(0, _tnsSlider.tnsPromotion)();
+		(0, _tnsSlider.tnsCarousell)();
+	} else if (document.body.classList.contains('Bonus')) {
+		bonus;
 	}
 })();
 
-},{"./components/tns-slider":43,"./components/topNav":44}]},{},[45]);
+},{"./components/modal-login":43,"./components/tns-slider":44,"./components/topNav":45}]},{},[46]);
 
 //# sourceMappingURL=scripts-min.js.map

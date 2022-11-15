@@ -1,0 +1,24 @@
+section(class="modal-login" id="modal-login")
+    div(class="login")
+        a(href="#" class="login__close")
+        div(class="login__content")
+            div(class="login__content__header")
+                h1(class="login__content__header__title") INGRESAR
+                a(class="login__content__header__text" href="#") O iniciar registrate
+            form
+                div(class="login__content__form")
+                    label(class="login__content__form__label" for="user") Nombre de usuario
+                    input(class="login__content__form__input" type="text" placeholder="Usuario o email" name="user" required)
+                    label(class="login__content__form__label" for="pass") Contraseña
+                    input(class="login__content__form__input" type="password" placeholder="Contraseña" name="pass" required)
+                    div(class="login__content__form__checkbox")
+                        input(type="checkbox" name="terminos" value="true")
+                        p(class="login__content__form__text") Recordar Contraseña
+                    button(class="btn btn__registro" type="submit") INGRESAR
+                    p(class="login__content__form__text") O Continue con
+                    div(class="login__content__form__links")
+                        div(class="login__content__form__img")
+                            a(href="#"): img(class="login__content__form__img" src="assets/img/icon_32.png", alt="imagen")
+                        div(class="login__content__form__img")
+                            a(href="#"): img(class="login__content__form__img" src="assets/img/icon_32.png", alt="imagen")
+        div(class="login__img")

@@ -7,7 +7,6 @@ export const tnsCarousell = () => {
     slideBy: 1,
     swipeAngle: false,
     speed: 400,
-    edgePadding: 40,
     nav: false,
     mouseDrag: true,
     controlsText: [
@@ -56,7 +55,6 @@ export const tnsPromotion = () => {
     slideBy: 1,
     swipeAngle: false,
     speed: 400,
-    edgePadding: 40,
     nav: false,
     mouseDrag: true,
     controlsText: [
