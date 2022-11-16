@@ -1,7 +1,7 @@
 import topNav from './components/topNav';
 import { tnsCarousell, tnsSingle, tnsPromotion } from './components/tns-slider';
 import modal from './components/modal-login';
-// import bonus from './components/bonus';
+import bonus from './components/bonus';
 
 (() => {
 	modal;

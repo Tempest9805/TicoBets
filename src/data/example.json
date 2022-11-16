@@ -191,35 +191,52 @@
 	"bonuses": [
 		{
 			"img": "assets/img/icon_128.png",
-			"src": "#bonus"
+			"percentage": "10%",
+            "name": "BONO DE BIENVENIDA DEPORTES",
+            "text": "You will receive a 100% bonus on your qualifying initial deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus.<br><br> The maximum amount awarded for this bonus is $1000.<br><br> The maximum cash out for this bonus is $1500.<br><br> There is a 50X (fifty times) rollover requirement associated with this promotion.<br><br> Deposits made via Credit Card are eligible for this bonus, with a 50x (fifty times) rollover.<br><br> The Bonus applies only for online casino."
 		},
 		{
 			"img": "assets/img/icon_128.png",
-			"src": "#bonus"
+			"percentage": "20%",
+            "name": "BONO DE BIENVENIDA DEPORTES",
+            "text": "You will receive a 100% bonus on your qualifying initial deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus.<br><br> The maximum amount awarded for this bonus is $1000.<br><br> The maximum cash out for this bonus is $1500.<br><br> There is a 50X (fifty times) rollover requirement associated with this promotion.<br><br> Deposits made via Credit Card are eligible for this bonus, with a 50x (fifty times) rollover.<br><br> The Bonus applies only for online casino."
 		},
 		{
 			"img": "assets/img/icon_128.png",
-			"src": "#bonus"
+			"percentage": "30%",
+            "name": "BONO DE BIENVENIDA DEPORTES",
+            "text": "You will receive a 100% bonus on your qualifying initial deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus.<br><br> The maximum amount awarded for this bonus is $1000.<br><br> The maximum cash out for this bonus is $1500.<br><br> There is a 50X (fifty times) rollover requirement associated with this promotion.<br><br> Deposits made via Credit Card are eligible for this bonus, with a 50x (fifty times) rollover.<br><br> The Bonus applies only for online casino."
 		},
 		{
 			"img": "assets/img/icon_128.png",
-			"src": "#bonus"
+			"percentage": "40%",
+            "name": "BONO DE BIENVENIDA DEPORTES",
+            "text": "You will receive a 100% bonus on your qualifying initial deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus.<br><br> The maximum amount awarded for this bonus is $1000.<br><br> The maximum cash out for this bonus is $1500.<br><br> There is a 50X (fifty times) rollover requirement associated with this promotion.<br><br> Deposits made via Credit Card are eligible for this bonus, with a 50x (fifty times) rollover.<br><br> The Bonus applies only for online casino."
 		},
 		{
 			"img": "assets/img/icon_128.png",
-			"src": "#bonus"
+			"percentage": "50%",
+            "name": "BONO DE BIENVENIDA DEPORTES",
+            "text": "You will receive a 100% bonus on your qualifying initial deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus.<br><br> The maximum amount awarded for this bonus is $1000.<br><br> The maximum cash out for this bonus is $1500.<br><br> There is a 50X (fifty times) rollover requirement associated with this promotion.<br><br> Deposits made via Credit Card are eligible for this bonus, with a 50x (fifty times) rollover.<br><br> The Bonus applies only for online casino."
 		},
 		{
 			"img": "assets/img/icon_128.png",
-			"src": "#bonus"
+			"percentage": "60%",
+            "name": "BONO DE BIENVENIDA DEPORTES",
+            "text": "You will receive a 100% bonus on your qualifying initial deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus.<br><br> The maximum amount awarded for this bonus is $1000.<br><br> The maximum cash out for this bonus is $1500.<br><br> There is a 50X (fifty times) rollover requirement associated with this promotion.<br><br> Deposits made via Credit Card are eligible for this bonus, with a 50x (fifty times) rollover.<br><br> The Bonus applies only for online casino."
 		},
 		{
 			"img": "assets/img/icon_128.png",
-			"src": "#bonus"
+			"percentage": "70%",
+            "name": "BONO DE BIENVENIDA DEPORTES",
+            "text": "You will receive a 100% bonus on your qualifying initial deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus.<br><br> The maximum amount awarded for this bonus is $1000.<br><br> The maximum cash out for this bonus is $1500.<br><br> There is a 50X (fifty times) rollover requirement associated with this promotion.<br><br> Deposits made via Credit Card are eligible for this bonus, with a 50x (fifty times) rollover.<br><br> The Bonus applies only for online casino."
 		},
 		{
 			"img": "assets/img/icon_128.png",
-			"src": "#bonus"
+			"percentage": "80%",
+            "name": "BONO DE BIENVENIDA DEPORTES",
+            "text": "You will receive a 100% bonus on your qualifying initial deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus.<br><br> The maximum amount awarded for this bonus is $1000.<br><br> The maximum cash out for this bonus is $1500.<br><br> There is a 50X (fifty times) rollover requirement associated with this promotion.<br><br> Deposits made via Credit Card are eligible for this bonus, with a 50x (fifty times) rollover.<br><br> The Bonus applies only for online casino."
 		}
 	]
+	
 }

@@ -3998,23 +3998,307 @@ var tns = exports.tns = function tns(options) {
 };
 
 },{"./helpers/addCSSRule.js":1,"./helpers/addClass.js":2,"./helpers/addEvents.js":3,"./helpers/arrayFromNodeList.js":4,"./helpers/caf.js":5,"./helpers/calc.js":6,"./helpers/checkStorageValue.js":7,"./helpers/createStyleSheet.js":9,"./helpers/events.js":11,"./helpers/extend.js":12,"./helpers/forEach.js":13,"./helpers/getAttr.js":14,"./helpers/getCssRulesLength.js":16,"./helpers/getEndProperty.js":17,"./helpers/getSlideId.js":18,"./helpers/getTouchDirection.js":19,"./helpers/has3DTransforms.js":20,"./helpers/hasAttr.js":21,"./helpers/hasClass.js":22,"./helpers/hideElement.js":23,"./helpers/isVisible.js":25,"./helpers/jsTransform.js":26,"./helpers/mediaquerySupport.js":27,"./helpers/percentageLayout.js":29,"./helpers/raf.js":30,"./helpers/removeAttrs.js":31,"./helpers/removeCSSRule.js":32,"./helpers/removeClass.js":33,"./helpers/removeEvents.js":34,"./helpers/setAttrs.js":36,"./helpers/setLocalStorage.js":38,"./helpers/showElement.js":39,"./helpers/toDegree.js":40,"./helpers/whichProperty.js":41}],43:[function(require,module,exports){
+module.exports={
+	"topnavmenu": [
+		{
+			"text": "Deportes",
+			"src": "#"
+		},
+		{
+			"text": "Apuestas en vivo",
+			"src": "#"
+		},
+		{
+			"text": "Casino",
+			"src": "#"
+		},
+		{
+			"text": "Caballos",
+			"src": "#"
+		},
+		{
+			"text": "Peleas de Gallos",
+			"src": "#"
+		},
+		{
+			"text": "Banca",
+			"src": "#"
+		}
+	],
+	"footerMenu": [
+		{
+			"title": "",
+			"footerColum": [
+				{
+					"text": "Deportes en linea",
+					"src": "#"
+				},
+				{
+					"text": "Casino en linea",
+					"src": "#"
+				},
+				{
+					"text": "Caballos en linea",
+					"src": "#"
+				},
+				{
+					"text": "Registrate Aqui",
+					"src": "#"
+				},
+				{
+					"text": "Acerca de Nosotros",
+					"src": "#"
+				}
+			]
+		},
+		{
+			"title": "",
+			"footerColum": [
+				{
+					"text": "Banca",
+					"src": "#"
+				},
+				{
+					"text": "Bonos y Promociones",
+					"src": "/bonus.html"
+				},
+				{
+					"text": "Agentes",
+					"src": "#"
+				},
+				{
+					"text": "Afiliados",
+					"src": "#"
+				}
+			]
+		},
+		{
+			"title": "LEGAL",
+			"footerColum": [
+				{
+					"text": "Terminos y Condiciones",
+					"src": "#"
+				},
+				{
+					"text": "Juego Responsable",
+					"src": "#"
+				},
+				{
+					"text": "Autoexclusion",
+					"src": "#"
+				},
+				{
+					"text": "Politica de Reclamos",
+					"src": "#"
+				},
+				{
+					"text": "AML",
+					"src": "#"
+				},
+				{
+					"text": "Juego Justo",
+					"src": "#"
+				},
+				{
+					"text": "Politica de Privacidad",
+					"src": "#"
+				}
+			]
+		},
+		{
+			"title": "",
+			"footerColum": [
+				{
+					"text": "Reglas de la casa",
+					"src": "#"
+				},
+				{
+					"text": "Reglas de Deportes",
+					"src": "#"
+				},
+				{
+					"text": "reglas de Casino",
+					"src": "#"
+				}
+			]
+		}
+	],
+	"socialicon": [
+		{
+			"src": "assets/img/icon_32.png"
+		},
+		{
+			"src": "assets/img/icon_32.png"
+		},
+		{
+			"src": "assets/img/icon_32.png"
+		}
+	],
+	"sliderHome": [
+		{
+			"src": "assets/img/img1.jpg"
+		},
+		{
+			"src": "assets/img/img4.jpg"
+		},
+		{
+			"src": "assets/img/img3.jpg"
+		},
+		{
+			"src": "assets/img/img4.jpg"
+		}
+	],
+	"metodoPago": [
+		{
+			"src": "assets/img/icon_64.png"
+		},
+		{
+			"src": "assets/img/icon_64.png"
+		},
+		{
+			"src": "assets/img/icon_64.png"
+		},
+		{
+			"src": "assets/img/icon_64.png"
+		},
+		{
+			"src": "assets/img/icon_64.png"
+		},
+		{
+			"src": "assets/img/icon_64.png"
+		},
+		{
+			"src": "assets/img/icon_64.png"
+		},
+		{
+			"src": "assets/img/icon_64.png"
+		}
+	],
+	"homeBonus": [
+		{
+			"img": "assets/img/img2.jpg",
+			"src": "/bonus.html"
+		},
+		{
+			"img": "assets/img/img3.jpg",
+			"src": "/bonus.html"
+		},
+		{
+			"img": "assets/img/img4.jpg",
+			"src": "/bonus.html"
+		}
+	],
+	"bonuses": [
+		{
+			"img": "assets/img/icon_128.png",
+			"percentage": "10%",
+            "name": "BONO DE BIENVENIDA DEPORTES",
+            "text": "You will receive a 100% bonus on your qualifying initial deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus.<br><br> The maximum amount awarded for this bonus is $1000.<br><br> The maximum cash out for this bonus is $1500.<br><br> There is a 50X (fifty times) rollover requirement associated with this promotion.<br><br> Deposits made via Credit Card are eligible for this bonus, with a 50x (fifty times) rollover.<br><br> The Bonus applies only for online casino."
+		},
+		{
+			"img": "assets/img/icon_128.png",
+			"percentage": "20%",
+            "name": "BONO DE BIENVENIDA DEPORTES",
+            "text": "You will receive a 100% bonus on your qualifying initial deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus.<br><br> The maximum amount awarded for this bonus is $1000.<br><br> The maximum cash out for this bonus is $1500.<br><br> There is a 50X (fifty times) rollover requirement associated with this promotion.<br><br> Deposits made via Credit Card are eligible for this bonus, with a 50x (fifty times) rollover.<br><br> The Bonus applies only for online casino."
+		},
+		{
+			"img": "assets/img/icon_128.png",
+			"percentage": "30%",
+            "name": "BONO DE BIENVENIDA DEPORTES",
+            "text": "You will receive a 100% bonus on your qualifying initial deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus.<br><br> The maximum amount awarded for this bonus is $1000.<br><br> The maximum cash out for this bonus is $1500.<br><br> There is a 50X (fifty times) rollover requirement associated with this promotion.<br><br> Deposits made via Credit Card are eligible for this bonus, with a 50x (fifty times) rollover.<br><br> The Bonus applies only for online casino."
+		},
+		{
+			"img": "assets/img/icon_128.png",
+			"percentage": "40%",
+            "name": "BONO DE BIENVENIDA DEPORTES",
+            "text": "You will receive a 100% bonus on your qualifying initial deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus.<br><br> The maximum amount awarded for this bonus is $1000.<br><br> The maximum cash out for this bonus is $1500.<br><br> There is a 50X (fifty times) rollover requirement associated with this promotion.<br><br> Deposits made via Credit Card are eligible for this bonus, with a 50x (fifty times) rollover.<br><br> The Bonus applies only for online casino."
+		},
+		{
+			"img": "assets/img/icon_128.png",
+			"percentage": "50%",
+            "name": "BONO DE BIENVENIDA DEPORTES",
+            "text": "You will receive a 100% bonus on your qualifying initial deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus.<br><br> The maximum amount awarded for this bonus is $1000.<br><br> The maximum cash out for this bonus is $1500.<br><br> There is a 50X (fifty times) rollover requirement associated with this promotion.<br><br> Deposits made via Credit Card are eligible for this bonus, with a 50x (fifty times) rollover.<br><br> The Bonus applies only for online casino."
+		},
+		{
+			"img": "assets/img/icon_128.png",
+			"percentage": "60%",
+            "name": "BONO DE BIENVENIDA DEPORTES",
+            "text": "You will receive a 100% bonus on your qualifying initial deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus.<br><br> The maximum amount awarded for this bonus is $1000.<br><br> The maximum cash out for this bonus is $1500.<br><br> There is a 50X (fifty times) rollover requirement associated with this promotion.<br><br> Deposits made via Credit Card are eligible for this bonus, with a 50x (fifty times) rollover.<br><br> The Bonus applies only for online casino."
+		},
+		{
+			"img": "assets/img/icon_128.png",
+			"percentage": "70%",
+            "name": "BONO DE BIENVENIDA DEPORTES",
+            "text": "You will receive a 100% bonus on your qualifying initial deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus.<br><br> The maximum amount awarded for this bonus is $1000.<br><br> The maximum cash out for this bonus is $1500.<br><br> There is a 50X (fifty times) rollover requirement associated with this promotion.<br><br> Deposits made via Credit Card are eligible for this bonus, with a 50x (fifty times) rollover.<br><br> The Bonus applies only for online casino."
+		},
+		{
+			"img": "assets/img/icon_128.png",
+			"percentage": "80%",
+            "name": "BONO DE BIENVENIDA DEPORTES",
+            "text": "You will receive a 100% bonus on your qualifying initial deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus.<br><br> The maximum amount awarded for this bonus is $1000.<br><br> The maximum cash out for this bonus is $1500.<br><br> There is a 50X (fifty times) rollover requirement associated with this promotion.<br><br> Deposits made via Credit Card are eligible for this bonus, with a 50x (fifty times) rollover.<br><br> The Bonus applies only for online casino."
+		}
+	]
+	
+}
+},{}],44:[function(require,module,exports){
+"use strict";
+
+var _example = require("../../data/example.json");
+
+var _example2 = _interopRequireDefault(_example);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var modalBonus = document.getElementById("bonus");
+var container = document.querySelector(".bonus__container");
+var section = document.querySelector(".section-bonus");
+var span = document.getElementById("btnclose");
+
+var bonus = document.querySelectorAll('.section-bonus__item');
+for (var i = 0; i < bonus.length; i++) {
+    bonus[i].addEventListener('click', openBonusModal);
+    bonus[i].setAttribute('id', i);
+    bonus[i].addEventListener('click', generateInfo);
+}
+
+function openBonusModal() {
+    modalBonus.style.display = "block";
+    generateInfo();
+}
+var closeBonusModal = function closeBonusModal() {
+    modalBonus.style.display = "none";
+    section.style.pointerEvents = 'auto';
+};
+if (span) {
+    span.addEventListener('click', closeBonusModal);
+}
+
+function generateInfo() {
+    section.style.pointerEvents = 'none';
+    if (this) {
+        container.innerHTML = "<a href='#' class='bonus__close' id='btnclose'></a>";
+        container.innerHTML += "\n        <h1>" + _example2.default.bonuses[this.id].percentage + "</h1>\n        <h2>" + _example2.default.bonuses[this.id].name + "</h2>\n        <p>" + _example2.default.bonuses[this.id].text + "</p>\n        ";
+    }
+}
+
+},{"../../data/example.json":43}],45:[function(require,module,exports){
 "use strict";
 
 var modal = document.getElementById("modal-login");
 var btn = document.getElementById("btnlogin");
 var span = document.getElementsByClassName("login__close")[0];
 
-var openModal = function openModal() {
+function openModal() {
     console.log("open");
     modal.style.display = "block";
-};
+}
 function closeModal() {
     modal.style.display = "none";
 }
 btn.addEventListener('click', openModal);
 span.addEventListener('click', closeModal);
 
-},{}],44:[function(require,module,exports){
+},{}],46:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4059,6 +4343,9 @@ var tnsSingle = exports.tnsSingle = function tnsSingle() {
     container: '#tnsSingle',
     items: 1,
     slideBy: 1,
+    autoplayButtonOutput: true,
+    animateDelay: 2,
+    loop: true,
     speed: 1000,
     mode: 'gallery',
     mouseDrag: true,
@@ -4087,7 +4374,7 @@ var tnsPromotion = exports.tnsPromotion = function tnsPromotion() {
   });
 };
 
-},{"../../../node_modules/tiny-slider/src/tiny-slider":42}],45:[function(require,module,exports){
+},{"../../../node_modules/tiny-slider/src/tiny-slider":42}],47:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4105,7 +4392,7 @@ var topNav = function topNav() {
 
 exports.default = topNav;
 
-},{}],46:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 'use strict';
 
 var _topNav = require('./components/topNav');
@@ -4118,9 +4405,11 @@ var _modalLogin = require('./components/modal-login');
 
 var _modalLogin2 = _interopRequireDefault(_modalLogin);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _bonus = require('./components/bonus');
 
-// import bonus from './components/bonus';
+var _bonus2 = _interopRequireDefault(_bonus);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (function () {
 	_modalLogin2.default;
@@ -4130,10 +4419,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 		(0, _tnsSlider.tnsPromotion)();
 		(0, _tnsSlider.tnsCarousell)();
 	} else if (document.body.classList.contains('Bonus')) {
-		bonus;
+		_bonus2.default;
 	}
 })();
 
-},{"./components/modal-login":43,"./components/tns-slider":44,"./components/topNav":45}]},{},[46]);
+},{"./components/bonus":44,"./components/modal-login":45,"./components/tns-slider":46,"./components/topNav":47}]},{},[48]);
 
 //# sourceMappingURL=scripts-min.js.map

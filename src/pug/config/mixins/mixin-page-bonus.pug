@@ -1,7 +1,6 @@
-mixin sectionBonus(img, src)
+mixin sectionBonus(img, id)
     div(class='section-bonus__item')
-        a(href='#') 
-            img(id='targetbonus' class='section-bonus__img', src=`${img}`, alt="image bonus")
+        img(class='section-bonus__img', src=`${img}`, alt="image bonus")
 -for (var i = 0; i < bonuses.length; i++)
     -var d = bonuses[i]
-    +sectionBonus(d.img, d,src)
+    +sectionBonus(d.img, d,id)
