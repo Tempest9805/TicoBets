@@ -35,7 +35,7 @@
 				},
 				{
 					"text": "Casino en linea",
-					"src": "#"
+					"src": "/casino.html"
 				},
 				{
 					"text": "Caballos en linea",
@@ -43,7 +43,7 @@
 				},
 				{
 					"text": "Registrate Aqui",
-					"src": "#"
+					"src": "/registrarse.html"
 				},
 				{
 					"text": "Acerca de Nosotros",
@@ -56,7 +56,7 @@
 			"footerColum": [
 				{
 					"text": "Banca",
-					"src": "#"
+					"src": "/banca.html"
 				},
 				{
 					"text": "Bonos y Promociones",

@@ -4035,7 +4035,7 @@ module.exports={
 				},
 				{
 					"text": "Casino en linea",
-					"src": "#"
+					"src": "/casino.html"
 				},
 				{
 					"text": "Caballos en linea",
@@ -4043,7 +4043,7 @@ module.exports={
 				},
 				{
 					"text": "Registrate Aqui",
-					"src": "#"
+					"src": "/registrarse.html"
 				},
 				{
 					"text": "Acerca de Nosotros",
@@ -4056,7 +4056,7 @@ module.exports={
 			"footerColum": [
 				{
 					"text": "Banca",
-					"src": "#"
+					"src": "/banca.html"
 				},
 				{
 					"text": "Bonos y Promociones",
@@ -4391,7 +4391,7 @@ var tnsCarousell = exports.tnsCarousell = function tnsCarousell() {
     speed: 400,
     nav: false,
     mouseDrag: true,
-    controlsText: ['<i class="tns-carousell__prev fas fa-chevron-left"></i>', '<i class="tns-carousell__next fas fa-chevron-right"></i>'],
+    controlsText: ['<i class="tns-carousell__prev fas fa-chevron-left" aria-label="back"></i>', '<i class="tns-carousell__next fas fa-chevron-right" aria-label="next"></i>'],
     responsive: {
       320: {
         items: 4
@@ -4422,7 +4422,7 @@ var tnsSingle = exports.tnsSingle = function tnsSingle() {
     speed: 1000,
     mode: 'gallery',
     mouseDrag: true,
-    controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
+    controlsText: ['<i class="fas fa-chevron-left" aria-label="back"></i>', '<i class="fas fa-chevron-right" aria-label="next"></i>']
   });
 };
 
@@ -4435,7 +4435,7 @@ var tnsPromotion = exports.tnsPromotion = function tnsPromotion() {
     speed: 400,
     nav: false,
     mouseDrag: true,
-    controlsText: ['<i class="tns-promotion__prev fas fa-chevron-left"></i>', '<i class="tns-promotion__next fas fa-chevron-right"></i>'],
+    controlsText: ['<i class="tns-promotion__prev fas fa-chevron-left" aria-label="back"></i>', '<i class="tns-promotion__next fas fa-chevron-right" aria-label="next"></i>'],
     responsive: {
       320: {
         items: 1

@@ -1,1 +1,1 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ultricies mi eget mauris pharetra.
+Este innovador producto te va a generar ganancias rápidas. Puedes disfrutar de los eventos de transmisión en vivo las 24 horas, los 7 días de la semana, en donde puedes jugar en más de 300 peleas por día.

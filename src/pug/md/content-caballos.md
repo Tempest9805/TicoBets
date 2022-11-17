@@ -1,3 +1,3 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet massa vitae tortor. Tincidunt lobortis feugiat vivamus at augue eget arcu. Justo donec enim diam vulputate. Quisque id diam vel quam. Etiam dignissim diam quis enim lobortis scelerisque. Consequat ac felis donec et odio. Aliquam sem fringilla ut morbi tincidunt augue interdum. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo.
+El Derby de Kentucky, Preakness Stakes, Breeders Cup, incluso la Copa de Dubai en un solo lugar. Contamos con acceso a más de 200 pistas en todo el mundo, los 365 días del año. Nuestro personal con gusto te dará la información detallada de las pistas, caballos y todo lo que necesites para convertirte en un verdadero experto. Visita nuestros locales o apuesta en línea y disfruta la emoción de las carreras.
 
 lISTA DE CARRERAS E INFORMACION
