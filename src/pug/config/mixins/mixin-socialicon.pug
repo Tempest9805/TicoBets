@@ -1,5 +1,5 @@
 mixin socialicon(src)
-    div: img(class="bottom-nav__icon", src=`${src}`, alt="social icon") 
+    div(class="bottom-nav__container-icon"): img(class="bottom-nav__icon", src=`${src}`, alt="social icon") 
 -for (var i = 0; i < socialicon.length; i++)
     -var d = socialicon[i]
     +socialicon(d.src)

@@ -1,0 +1,24 @@
+@import "../config/vars";
+.section-caballos{
+    h1{
+        @include section-title;
+    } 
+}
+.caballos{
+    &__container{
+        @include container-general;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: auto;
+    }
+    &__table{
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    &table, th, td{
+        padding: 0.5rem 4rem;
+        border: 1px solid;
+    }
+
+}

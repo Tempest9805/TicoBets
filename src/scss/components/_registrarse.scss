@@ -1,9 +1,12 @@
 @import "../config/vars";
 
 .container-registro{
-    background-color: rgb(0, 0, 200);
-    padding: 2rem;
     margin: 0;
+    padding: 2rem;
+    &__img{
+        position: absolute;
+        z-index: -10;
+    }
 }
 .registro {
     border-radius: 10px;
@@ -18,8 +21,7 @@
     @media (min-width: 960px) {
         &__img{
             display: block;
-            min-width: 600px;
-            background-color: red;
+            min-width: 500px;
         }
     }
     &__content {

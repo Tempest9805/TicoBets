@@ -6,7 +6,6 @@
 	border-bottom: 2px solid var(--color-yellow);
 	top: 0;
 	width: 100%;
-	min-height: 6vh;
 	left: 0;
 	display: flex;
 	justify-content: center;
@@ -26,8 +25,7 @@
 	}
 
 	&__logo {
-		height: 2rem;
-		width: auto;
+		max-height: 2rem;
 		display: block;
 	}
 

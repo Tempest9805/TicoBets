@@ -2,6 +2,7 @@ import topNav from './components/topNav';
 import { tnsCarousell, tnsSingle, tnsPromotion } from './components/tns-slider';
 import modal from './components/modal-login';
 import bonus from './components/bonus';
+import tabs from './components/tabs'
 
 (() => {
 	modal;
@@ -13,5 +14,8 @@ import bonus from './components/bonus';
 	}
 	else if (document.body.classList.contains('Bonus')) {
 		bonus;
+	}
+	else if (document.body.classList.contains('Banca')) {
+		tabs();
 	}
 })();

@@ -8,12 +8,8 @@
   }
 
   &__content {
-    height: 100px;
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    width: 60px;
+    margin: 0 auto;
 
     span {
       color: white;
@@ -21,8 +17,15 @@
   }
 
   &__img {
-    max-width: 80%;
+    margin: 0 auto;
+    max-width: 50%;
     max-height: 100%;
+  }
+
+  @media (min-width: 640px) {
+    &__img {
+      max-width: 80%;
+    }
   }
 }
 

@@ -2,7 +2,6 @@
 
 .modal-login {
     max-width: 1200px;
-    background-color: rgb(0, 0, 200);
     padding: 2rem;
     margin: 0;
     position: absolute;
@@ -34,8 +33,7 @@
     @media (min-width: 960px) {
         &__img {
             display: block;
-            min-width: 600px;
-            background-color: red;
+            min-width: 500px;
         }
     }
 
@@ -45,7 +43,7 @@
         padding: 2rem;
 
         &__header {
-            margin-bottom: 2rem;
+            margin-bottom: 4rem;
             text-align: center;
 
             &__title {
@@ -73,6 +71,7 @@
                 border: 1px solid var(--color-yellow);
                 color: var(--color-white);
                 margin: 0.5rem 0;
+                margin-bottom: 2rem;
 
                 &::placeholder {
                     color: var(--color-text);

@@ -1,6 +1,8 @@
-mixin sliderHome(src)
+mixin sliderHome(src, imgMob)
     div: div(class='tns-single__content')
-        img(class='tns-single__img', src=`${src}`, alt="image slider")
+        picture 
+            source(media="(min-width: 640px)", srcset=`${src}`)
+            img(class='tns-single__img', src=`${imgMob}`, alt="image slider")
 -for (var i = 0; i < sliderHome.length; i++)
     -var d = sliderHome[i]
-    +sliderHome(d.src)
+    +sliderHome(d.src, d.imgMob)
