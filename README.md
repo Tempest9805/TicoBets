@@ -12,4 +12,4 @@ Instructions:
 * ```gulp build``` before deployment
 * ```npm run deploy``` to publish the site in gh pages
 
-https://Nixon-fj.github.io/MoneyBets
+https://nixon-fj.github.io/MoneyBets/public/
