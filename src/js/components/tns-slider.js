@@ -10,8 +10,8 @@ export const tnsCarousell = () => {
     nav: false,
     mouseDrag: true,
     controlsText: [
-      '<i class="tns-carousell__prev fas fa-chevron-left" aria-label="back"></i>',
-      '<i class="tns-carousell__next fas fa-chevron-right" aria-label="next"></i>'
+      '<i class="tns-carousell__prev fas fa-chevron-left" aria-label="carouselback"></i>',
+      '<i class="tns-carousell__next fas fa-chevron-right" aria-label="carouselnext"></i>'
     ],
     responsive: {
       320: {
@@ -44,8 +44,8 @@ export const tnsSingle = () => {
     mode: 'gallery',
     mouseDrag: true,
     controlsText: [
-      '<i class="fas fa-chevron-left" aria-label="back"></i>',
-      '<i class="fas fa-chevron-right" aria-label="next"></i>'
+      '<i class="fas fa-chevron-left" aria-label="sliderback"></i>',
+      '<i class="fas fa-chevron-right" aria-label="slidernext"></i>'
     ]
   });
 };
@@ -60,8 +60,8 @@ export const tnsPromotion = () => {
     nav: false,
     mouseDrag: true,
     controlsText: [
-      '<i class="tns-promotion__prev fas fa-chevron-left" aria-label="back"></i>',
-      '<i class="tns-promotion__next fas fa-chevron-right" aria-label="next"></i>'
+      '<i class="tns-promotion__prev fas fa-chevron-left" aria-label="promoback"></i>',
+      '<i class="tns-promotion__next fas fa-chevron-right" aria-label="promonext"></i>'
     ],
     responsive: {
       320: {

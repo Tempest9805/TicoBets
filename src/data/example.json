@@ -27,7 +27,6 @@
 	],
 	"footerMenu": [
 		{
-			"title": "",
 			"footerColum": [
 				{
 					"text": "Deportes en linea",
@@ -52,7 +51,6 @@
 			]
 		},
 		{
-			"title": "",
 			"footerColum": [
 				{
 					"text": "Banca",
@@ -73,7 +71,6 @@
 			]
 		},
 		{
-			"title": "LEGAL",
 			"footerColum": [
 				{
 					"text": "Terminos y Condiciones",
@@ -106,7 +103,6 @@
 			]
 		},
 		{
-			"title": "",
 			"footerColum": [
 				{
 					"text": "Reglas de la casa",

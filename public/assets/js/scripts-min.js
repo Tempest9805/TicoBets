@@ -4027,7 +4027,6 @@ module.exports={
 	],
 	"footerMenu": [
 		{
-			"title": "",
 			"footerColum": [
 				{
 					"text": "Deportes en linea",
@@ -4052,7 +4051,6 @@ module.exports={
 			]
 		},
 		{
-			"title": "",
 			"footerColum": [
 				{
 					"text": "Banca",
@@ -4073,7 +4071,6 @@ module.exports={
 			]
 		},
 		{
-			"title": "LEGAL",
 			"footerColum": [
 				{
 					"text": "Terminos y Condiciones",
@@ -4106,7 +4103,6 @@ module.exports={
 			]
 		},
 		{
-			"title": "",
 			"footerColum": [
 				{
 					"text": "Reglas de la casa",
@@ -4391,7 +4387,7 @@ var tnsCarousell = exports.tnsCarousell = function tnsCarousell() {
     speed: 400,
     nav: false,
     mouseDrag: true,
-    controlsText: ['<i class="tns-carousell__prev fas fa-chevron-left" aria-label="back"></i>', '<i class="tns-carousell__next fas fa-chevron-right" aria-label="next"></i>'],
+    controlsText: ['<i class="tns-carousell__prev fas fa-chevron-left" aria-label="carouselback"></i>', '<i class="tns-carousell__next fas fa-chevron-right" aria-label="carouselnext"></i>'],
     responsive: {
       320: {
         items: 4
@@ -4422,7 +4418,7 @@ var tnsSingle = exports.tnsSingle = function tnsSingle() {
     speed: 1000,
     mode: 'gallery',
     mouseDrag: true,
-    controlsText: ['<i class="fas fa-chevron-left" aria-label="back"></i>', '<i class="fas fa-chevron-right" aria-label="next"></i>']
+    controlsText: ['<i class="fas fa-chevron-left" aria-label="sliderback"></i>', '<i class="fas fa-chevron-right" aria-label="slidernext"></i>']
   });
 };
 
@@ -4435,7 +4431,7 @@ var tnsPromotion = exports.tnsPromotion = function tnsPromotion() {
     speed: 400,
     nav: false,
     mouseDrag: true,
-    controlsText: ['<i class="tns-promotion__prev fas fa-chevron-left" aria-label="back"></i>', '<i class="tns-promotion__next fas fa-chevron-right" aria-label="next"></i>'],
+    controlsText: ['<i class="tns-promotion__prev fas fa-chevron-left" aria-label="promoback"></i>', '<i class="tns-promotion__next fas fa-chevron-right" aria-label="promonext"></i>'],
     responsive: {
       320: {
         items: 1
