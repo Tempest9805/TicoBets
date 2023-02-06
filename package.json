@@ -1,9 +1,9 @@
 {
-	"name": "MoneyBet",
+	"name": "myStyleGuide",
 	"version": "1.0.0",
 	"description": "Simple scafolding for statics web projects",
 	"main": "gulpfile.babel.js",
-	"homepage": "#",
+	"homepage": "https://kikeestrada.github.io/myStyleGuide/",
 	"scripts": {
 		"start": "gulp",
 		"pug": "gulp pug",

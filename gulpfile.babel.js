@@ -83,7 +83,7 @@ gulp.task('pug-dev', () =>
 	gulp.src('./src/pug/pages/**/*.pug')
 		.pipe(plumber())
 		.pipe(data(function(file) {
-			return 	JSON.parse(fs.readFileSync(`${dir.src}/data/example.json`))
+			return 	JSON.parse(fs.readFileSync(`${dir.src}/data/data.json`))
 		}))
 		.pipe(pug({
 			pretty: true,
@@ -96,7 +96,7 @@ gulp.task('pug-build', () =>
 	gulp.src('./src/pug/pages/**/*.pug')
 		.pipe(plumber())
 		.pipe(data(function(file) {
-			return 	JSON.parse(fs.readFileSync(`${dir.src}/data/example.json`))
+			return 	JSON.parse(fs.readFileSync(`${dir.src}/data/data.json`))
 		}))
 		.pipe(pug({
 			basedir: './src/pug'
@@ -201,7 +201,7 @@ gulp.task('sitemap', () => {
 		read: false
 	})
 		.pipe(sitemap({
-			siteUrl: 'https://Nixon-fj.github.io/MoneyBets' // remplazar por tu dominio
+			siteUrl: '#' // remplazar por tu dominio
 		}))
 		.pipe(gulp.dest('./public'))
 });
@@ -210,7 +210,9 @@ gulp.task('dev', [
 	'styles-dev', 
 	'pug-dev', 
 	'scripts-dev', 
-	'images-dev'
+	'images-dev',
+	'fonts-dev', 
+	'manifest'
 ], () => {
 	server.init({
 		server: {
@@ -221,8 +223,8 @@ gulp.task('dev', [
 	watch('./src/scss/**/**', 		() => gulp.start('styles-dev'));
 	watch('./src/js/**/**', 		() => gulp.start('scripts-dev', server.reload));
 	watch('./src/pug/**/**', 		() => gulp.start('pug-dev', server.reload));
-	watch('./src/img/**/**', 		() => gulp.start('images-dev'))
-	watch('./src/manifest.json', 	() => gulp.start('manifest'))
+	watch('./src/img/**/**', 		() => gulp.start('images-dev'));
+	watch('./src/manifest.json', 	() => gulp.start('manifest'));
 });
 
 gulp.task('cache', () => {

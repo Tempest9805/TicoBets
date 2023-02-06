@@ -1,0 +1,33 @@
+@import '../config/vars';
+
+.caballos {
+    h2{
+        margin: 0;
+    }
+    max-width: 100%;
+    @media (min-width: 474px) {
+        margin-top: 0rem;
+    }
+    &__banner {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin-top: 1rem;
+        @media (min-width: 474px) {
+            margin-top: 5rem;
+        }
+    }
+    &__content {
+        width: 80%;
+        max-width: 1200px;
+        margin: 2rem auto;
+    }
+    &__gallerie{
+        margin-top: 2rem;
+    }
+    &__button{
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0;
+    }
+}

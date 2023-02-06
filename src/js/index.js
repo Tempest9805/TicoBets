@@ -1,21 +1,26 @@
 import topNav from './components/topNav';
-import { tnsCarousell, tnsSingle, tnsPromotion } from './components/tns-slider';
+import { tnsCarousell, tnsSingle, carouselPromotions } from "./components/tns-slider";
+import tabs from './components/tabs';
+import accordion from './components/accordion'; 
 import modal from './components/modal-login';
-import bonus from './components/bonus';
-import tabs from './components/tabs'
+import {initAcc} from './components/dropdown';
+import tablecaballos from './components/tablecaballos';
 
 (() => {
 	modal;
 	topNav();
+	tnsCarousell();
 	if (document.body.classList.contains('home')) {
 		tnsSingle();
-		tnsPromotion();
-		tnsCarousell();
-	}
-	else if (document.body.classList.contains('Bonus')) {
-		bonus;
-	}
-	else if (document.body.classList.contains('Banca')) {
+	} else if (document.body.classList.contains('Banca')) {
 		tabs();
+	} else if (document.body.classList.contains('ReglasDeportes')) {
+		accordion();
+	} else if (document.body.classList.contains('bonus')) {
+		carouselPromotions();
+	} else if (document.body.classList.contains('ReglasDeportes')) {
+		initAcc();
+	} else if (document.body.classList.contains('caballos')) {
+		tablecaballos();
 	}
 })();

@@ -1,29 +1,33 @@
 // Libraries
-@import "~normalize.css/normalize.css";
-@import "libraries/prism";
+@import "libraries/normaliza";
 @import "~tiny-slider/src/tiny-slider.scss";
-@import "libraries/animate";
-// Configuraciones
-$fractions : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10;
-$breakpoints : (s: 0,
-	m: 640px,
-	l: 960px,
-	lg: 1280px,
-	xl: 1600px);
 @import "~ed-grid/ed-grid";
-@import "~hamburgers/_sass/hamburgers/hamburgers.scss";
+@import "~hamburgers/_sass/hamburgers/hamburgers.scss"; 
+
+// Configuraciones
+$fractions : 1,2,3,4,5,6,7,8,9,10;
+$breakpoints 		: 
+	(
+		s	: 0,
+		m	: 640px,
+		l	: 960px,
+		lg	: 1280px,
+		xl	: 1600px
+	);
 
 // Config
-@import "config/functions";
+@import "config/functions"; 
 @import "config/vars";
-@import "config/mixins";
+@import "config/mixins"; 
 
 // LAYOUT
 // Escribe solo los estilos de layout (division en regiones del viewport)
 @import "layout/layout";
 
 // MODULES (SMACSS) O COMPONENTS (ITCSS)
-@import "components/components";
+
+@import 'components/components';
 
 // Utilities (hacks)
 @import "hacks/hacks";
+

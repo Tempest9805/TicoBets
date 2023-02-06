@@ -3998,332 +3998,57 @@ var tns = exports.tns = function tns(options) {
 };
 
 },{"./helpers/addCSSRule.js":1,"./helpers/addClass.js":2,"./helpers/addEvents.js":3,"./helpers/arrayFromNodeList.js":4,"./helpers/caf.js":5,"./helpers/calc.js":6,"./helpers/checkStorageValue.js":7,"./helpers/createStyleSheet.js":9,"./helpers/events.js":11,"./helpers/extend.js":12,"./helpers/forEach.js":13,"./helpers/getAttr.js":14,"./helpers/getCssRulesLength.js":16,"./helpers/getEndProperty.js":17,"./helpers/getSlideId.js":18,"./helpers/getTouchDirection.js":19,"./helpers/has3DTransforms.js":20,"./helpers/hasAttr.js":21,"./helpers/hasClass.js":22,"./helpers/hideElement.js":23,"./helpers/isVisible.js":25,"./helpers/jsTransform.js":26,"./helpers/mediaquerySupport.js":27,"./helpers/percentageLayout.js":29,"./helpers/raf.js":30,"./helpers/removeAttrs.js":31,"./helpers/removeCSSRule.js":32,"./helpers/removeClass.js":33,"./helpers/removeEvents.js":34,"./helpers/setAttrs.js":36,"./helpers/setLocalStorage.js":38,"./helpers/showElement.js":39,"./helpers/toDegree.js":40,"./helpers/whichProperty.js":41}],43:[function(require,module,exports){
-module.exports={
-	"topnavmenu": [
-		{
-			"text": "Deportes",
-			"src": "#"
-		},
-		{
-			"text": "Apuestas en vivo",
-			"src": "apuestas-vivo.html"
-		},
-		{
-			"text": "Casino",
-			"src": "casino.html"
-		},
-		{
-			"text": "Caballos",
-			"src": "caballos.html"
-		},
-		{
-			"text": "Peleas de Gallos",
-			"src": "gallos.html"
-		},
-		{
-			"text": "Banca",
-			"src": "banca.html"
-		}
-	],
-	"footerMenu": [
-		{
-			"footerColum": [
-				{
-					"text": "Deportes en linea",
-					"src": "#"
-				},
-				{
-					"text": "Casino en linea",
-					"src": "/casino.html"
-				},
-				{
-					"text": "Caballos en linea",
-					"src": "#"
-				},
-				{
-					"text": "Registrate Aqui",
-					"src": "/registrarse.html"
-				},
-				{
-					"text": "Acerca de Nosotros",
-					"src": "#"
-				}
-			]
-		},
-		{
-			"footerColum": [
-				{
-					"text": "Banca",
-					"src": "/banca.html"
-				},
-				{
-					"text": "Bonos y Promociones",
-					"src": "/bonus.html"
-				},
-				{
-					"text": "Agentes",
-					"src": "#"
-				},
-				{
-					"text": "Afiliados",
-					"src": "#"
-				}
-			]
-		},
-		{
-			"footerColum": [
-				{
-					"text": "Terminos y Condiciones",
-					"src": "#"
-				},
-				{
-					"text": "Juego Responsable",
-					"src": "#"
-				},
-				{
-					"text": "Autoexclusion",
-					"src": "#"
-				},
-				{
-					"text": "Politica de Reclamos",
-					"src": "#"
-				},
-				{
-					"text": "AML",
-					"src": "#"
-				},
-				{
-					"text": "Juego Justo",
-					"src": "#"
-				},
-				{
-					"text": "Politica de Privacidad",
-					"src": "#"
-				}
-			]
-		},
-		{
-			"footerColum": [
-				{
-					"text": "Reglas de la casa",
-					"src": "#"
-				},
-				{
-					"text": "Reglas de Deportes",
-					"src": "#"
-				},
-				{
-					"text": "reglas de Casino",
-					"src": "#"
-				}
-			]
-		}
-	],
-	"socialicon": [
-		{
-			"src": "assets/img/home/desktop/footer/facebook.png"
-		},
-		{
-			"src": "assets/img/home/desktop/footer/inst.png"
-		},
-		{
-			"src": "assets/img/home/desktop/footer/18=.png"
-		}
-	],
-	"sliderHome": [
-		{
-			"src": "assets/img/home/desktop/gallos_slider.jpg",
-			"imgMob": "assets/img/home/mobile/gallos_slider.jpg"
-		},
-		{
-			"src": "assets/img/home/desktop/soccer_slider.jpg",
-			"imgMob": "assets/img/home/mobile/soccer_slider.jpg"
-		},
-		{
-			"src": "assets/img/home/desktop/casino_slider.jpg",
-			"imgMob": "assets/img/home/mobile/casino_mobile.jpg"
-		},
-		{
-			"src": "assets/img/home/desktop/caballos_slider.jpg",
-			"imgMob": "assets/img/home/mobile/horses_slider.jpg"
-		}
-	],
-	"metodoPago": [
-		{
-			"src": "assets/img/home/desktop/met pago/bitc.png"
-		},
-		{
-			"src": "assets/img/home/desktop/met pago/bitc 2.png"
-		},
-		{
-			"src": "assets/img/home/desktop/met pago/lite.png"
-		},
-		{
-			"src": "assets/img/home/desktop/met pago/t.png"
-		},
-		{
-			"src": "assets/img/home/desktop/met pago/moneygr.png"
-		},
-		{
-			"src": "assets/img/home/desktop/met pago/zero.png"
-		},
-		{
-			"src": "assets/img/home/desktop/met pago/masterc.png"
-		},
-		{
-			"src": "assets/img/home/desktop/met pago/visa.png"
-		}
-	],
-	"homeBonus": [
-		{
-			"img": "assets/img/home/desktop/bonus/100_bonus.jpg",
-			"src": "/bonus.html"
-		},
-		{
-			"img": "assets/img/home/desktop/bonus/casino_bonus.jpg",
-			"src": "/bonus.html"
-		},
-		{
-			"img": "assets/img/home/desktop/bonus/25-reload_bonus.jpg",
-			"src": "/bonus.html"
-		}
-	],
-	"bonuses": [
-		{
-			"img": "assets/img/promos/desktop/100-bienvenida-image.jpg",
-			"imgMob": "assets/img/promos/mob/100 promo.jpg",
-			"percentage": "100%",
-            "name": "BIENVENIDA EN DEPORTES",
-            "text": "Se requiere un depósito mínimo de $20 para calificar para el bono<br><br>Te obsequiamos el 100 % de bono en su <strong>PRIMER DEPÓSITO</strong> solamente.<br><br>El máximo de bono a recibir por depósito es de $250<br><br>El bono será otorgado como Jugada Gratuita<br><br>Deberás cumplir con ( el monto rollover 12x (Doce veces) que está asociado a esta promoción<br><br>Rollover (w) es calculado en base a su depósito (d), más el bono (b), multiplicado por el requisito de su bono (r). Fórmula del Rollover: w= (d+b)*r<br><br>Nota: solamente el monto más bajo entre el monto que arriesga y gana cuenta para el requisito del rollover. Caballos, Casino, Poker y apuestas en vivo no cuentan para el rollover<br><br>Para recibir el bono, debe utilizar el código de la promoción: <strong>MBSPORTS100</strong><br><br>Esta promoción no es transferible<br><br>Las jugadas gratuitas podrán ser utilizadas solamente en jugadas directas hasta una línea de -150. Estas no podrán ser usadas en Caballos, Casino, Poker or Apuestas en vivo<br><br><strong>MONEYBET</strong> se reserva el derecho de alterar o modificar los Términos y Condiciones de esta promoción en cualquier momento sin previo aviso.<br><br>Para más información acerca de límites de bonos y reembolsos, por favor visite nuestros  <a class='linkTerms' href='#'>Términos y Condiciones</a><br><br>"
-		},
-		{
-			"img": "assets/img/promos/desktop/100-casino.jpg",
-			"imgMob": "assets/img/promos/mob/100 promo casino.jpg",
-			"percentage": "100%",
-            "name": "BONO CASINO DE BIENVENIDA",
-            "text": "Te obsequiamos el 100% de bono en su <strong>DEPOSITO DE INICIO</strong> solamente.<br><br> Se requiere un depósito mínimo de $10 para calificar para el bono<br><br> Lo máximo que se paga por este bono es $1000<br><br> El retiro máximo por este bono es de $1500<br><br> Debe cumplir con 50X (Cincuenta veces) rollover asociado a esta promoción.<br><br> Los depósitos hechos con Tarjetas de crédito deben de cumplir con 40X (Cuarenta veces) rollover<br><br> El bono aplica solo para casino en línea<br><br> El bono es abierto para todos los jugadores.<br><br> Para recibir el bono, debe utilizar el código de la promoción que es: <strong>MBCASINO100</strong><br><br> <strong>MONEYBET</strong> se reserva el derecho de alterar o modificar los Términos y Condiciones de esta promoción en cualquier momento sin previo aviso.<br><br> Para más información acerca de límites de bonos y reembolsos, por favor visite nuestros  <a class='linkTerms' href='#'>Términos y Condiciones</a> <br><br>"
-		},
-		{
-			"img": "assets/img/promos/desktop/50-bienv.jpg",
-			"imgMob": "assets/img/promos/mob/50 promo.jpg",
-			"percentage": "50%",
-            "name": "BIENVENIDA EN DEPORTES",
-            "text": "Se requiere un depósito mínimo de $20 para calificar para el bono<br><br>Te obsequiamos el 50% de bono en su <strong>PRIMER DEPÓSITO</strong> solamente.<br><br>El máximo de bono a recibir por depósito es de $125<br><br>El bono será otorgado como Jugada Gratuita<br><br>Deberás cumplir con ( el monto rollover 10x (Diez veces) que está asociado a esta promoción<br><br>Rollover (w) es calculado en base a su depósito (d), más el bono (b), multiplicado por el requisito de su bono (r). Fórmula del Rollover: w= (d+b)*r<br><br>Nota: solamente el monto más bajo entre el monto que arriesga y gana cuenta para el requisito del rollover. Caballos, Casino, Poker y apuestas en vivo no cuentan para el rollover<br><br>Para recibir el bono, debe utilizar el código de la promoción: <strong>MBSPORTS50</strong><br><br>Esta promoción no es transferible<br><br>Las jugadas gratuitas podrán ser utilizadas solamente en jugadas directas hasta una línea de -150. Estas no podrán ser usadas en Caballos, Casino, Poker or Apuestas en vivo<br><br><strong>MONEYBET</strong> se reserva el derecho de alterar o modificar los Términos y Condiciones de esta promoción en cualquier momento sin previo aviso.<br><br>Para más información acerca de límites de bonos y reembolsos, por favor visite nuestros  <a class='linkTerms' href='#'>Términos y Condiciones</a><br><br>"
-		},
-		{
-			"img": "assets/img/promos/desktop/25-bienv.jpg",
-			"imgMob": "assets/img/promos/mob/25 promo.jpg",
-			"percentage": "25%",
-            "name": "BIENVENIDA EN DEPORTES",
-            "text": "Se requiere un depósito mínimo de $20 para calificar para el bono<br><br>Te obsequiamos el 25% de bono en su <strong>PRIMER DEPÓSITO</strong> solamente.<br><br>El máximo de bono a recibir por depósito es de $75<br><br>El bono será otorgado como Jugada Gratuita<br><br>Deberás cumplir con ( el monto rollover 8x (Ocho veces)) que está asociado a esta promoción<br><br>Rollover (w) es calculado en base a su depósito (d), más el bono (b), multiplicado por el requisito de su bono (r). Fórmula del Rollover: w= (d+b)*r<br><br>Nota: solamente el monto más bajo entre el monto que arriesga y gana cuenta para el requisito del rollover. Caballos, Casino, Poker y apuestas en vivo no cuentan para el rollover<br><br>Para recibir el bono, debe utilizar el código de la promoción: <strong>MBSPORTS25</strong><br><br>Esta promoción no es transferible<br><br>Las jugadas gratuitas podrán ser utilizadas solamente en jugadas directas hasta una línea de 150. Estas no podrán ser usadas en Caballos, Casino, Poker or Apuestas en vivo<br><br><strong>MONEYBET</strong> se reserva el derecho de alterar o modificar los Términos y Condiciones de esta promoción en cualquier momento sin previo aviso.<br><br>Para más información acerca de límites de bonos y reembolsos, por favor visite nuestros <a class='linkTerms' href='#'>Términos y Condiciones</a><br><br>"
-		},
-		{
-			"img": "assets/img/promos/desktop/25-recarga.jpg",
-			"imgMob": "assets/img/promos/mob/25 reload.jpg",
-			"percentage": "25%",
-            "name": "BONO DE RECARGA DEPORTES",
-            "text": "Se requiere un depósito mínimo de $20 para calificar para el bono<br><br>Te obsequiamos el 25% de bono en su <strong>DEPÓSITO DE RECARGA</strong> solamente.<br><br>El máximo de bono a recibir por depósito es de $250<br><br>El bono será otorgado como Jugada Gratuita<br><br>Deberás cumplir con ( el monto rollover 8x (Ocho veces) que está asociado a esta promoción<br><br>Rollover (w) es calculado en base a su depósito (d), más el bono (b), multiplicado por el requisito de su bono (r). Fórmula del Rollover: w= (d+b)*r<br><br>Nota: solamente el monto más bajo entre el monto que arriesga y gana cuenta para el requisito del rollover. Caballos, Casino, Poker y apuestas en vivo no cuentan para el rollover<br><br>Para recibir el bono, debe utilizar el código de la promoción: <strong>BETRELOAD25</strong><br><br>Esta promoción no es transferible<br><br>Las jugadas gratuitas podrán ser utilizadas solamente en jugadas directas hasta una línea de 150. Estas no podrán ser usadas en Caballos, Casino, Poker or Apuestas en vivo<br><br><strong>MONEYBET</strong> se reserva el derecho de alterar o modificar los Términos y Condiciones de esta promoción en cualquier momento sin previo aviso.<br><br>Para más información acerca de límites de bonos y reembolsos, por favor visite nuestros  <a class='linkTerms' href='#'>Términos y Condiciones</a><br><br>"
-		},
-		{
-			"img": "assets/img/promos/desktop/50-casino.jpg",
-			"imgMob": "assets/img/promos/mob/50 reload.jpg",
-			"percentage": "50%",
-            "name": "RECARGA EN CASINO",
-            "text": "Te obsequiamos el 50% de bono en su <strong>DEPÓSITO DE RECARGA</strong> solamente.<br><br>Se requiere un depósito mínimo de $10 para calificar para el bono<br><br>Lo máximo que se paga por este bono es $1000<br><br>El retiro máximo por este bono es de $1000<br><br>Debe cumplir con 40X (Cuarenta veces) rollover asociado a esta promoción.<br><br>Los depósitos hechos con Tarjetas de crédito deben de cumplir con 30X (Treinta veces) rollover<br><br>El bono aplica solo para casino en línea<br><br>El bono es abierto para todos los jugadores.<br><br>Para recibir el bono, debe utilizar el código de la promoción que es: <strong>MBRELOAD50</strong><br><br><strong>MONEYBET</strong> se reserva el derecho de alterar o modificar los Términos y Condiciones de esta promoción en cualquier momento sin previo aviso.<br><br>Para más información acerca de límites de bonos y reembolsos, por favor visite nuestros <a class='linkTerms' href='#'>Términos y Condiciones</a><br><br>"
-		},
-		{
-			"img": "assets/img/promos/desktop/25-giros.jpg",
-			"imgMob": "assets/img/promos/mob/25 giros.jpg",
-			"percentage": "25%",
-            "name": "GIROS GRATIS",
-            "text": "Te obsequiamos 25 giros gratis  en su <strong>DEPOSITO DE INICIO</strong> solamente.<br><br>Se requiere un depósito mínimo de $10 para calificar para el bono<br><br>Lo máximo que se paga es hasta 25 giros.<br><br>El retiro máximo por este bono es de $50<br><br>Debe cumplir con 40X (Cuarenta veces) rollover asociado a esta promoción.<br><br>Los depósitos hechos con Tarjetas de crédito deben de cumplir con 40X (Cuarenta veces) rollover<br><br>El bono aplica solo para casino en línea<br><br>El bono es abierto para todos los jugadores.<br><br>Para recibir el bono, debe utilizar el código de la promoción que es: <strong>25MBSPINS</strong><br><br><strong>MONEYBET</strong> se reserva el derecho de alterar o modificar los Términos y Condiciones de esta promoción en cualquier momento sin previo aviso.<br><br>Para más información acerca de límites de bonos y reembolsos, por favor visite nuestros  <a class='linkTerms' href='#'>Términos y Condiciones</a><br><br>No Aplica con otras <strong>PROMOCIONES</strong><br><br>"
-		},
-		{
-			"img": "assets/img/promos/desktop/caballos.jpg",
-			"imgMob": "assets/img/promos/mob/caballos.jpg",
-			"percentage": "8%",
-            "name": "DE REEMBOLSO DIARIO EN CABALLOS ",
-            "text": "Pagos diarios, basado en el monto arriesgado del día anterior. Gane o pierda, cuando usted juegue, nosotros pagamos. No hay rollovers.<br><br>Esta promoción no puede ser combinada con otros reembolsos.<br><br>No hay requisitos mínimos de volumen diario y no hay un máximo de cuánto puede ganar<br><br>No importa si gane o pierda, nosotros le acreditamos el reembolso basado en el volumen y la categoría de la pista<br><br>"
-		}
-	],
-	"providers":[
-		{
-			"img": "assets/img/apuestas en vivo y casino/betsof logo.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/concept.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/endorphina.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/evolution.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/ezugi.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/slasa.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/nucleus.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/platinum.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/bet games.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/vivo.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/tom.png"
-		}
-	]
-}
-},{}],44:[function(require,module,exports){
 "use strict";
 
-var _example = require("../../data/example.json");
-
-var _example2 = _interopRequireDefault(_example);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var modalBonus = document.getElementById("bonus");
-var container = document.querySelector(".bonus__container");
-var section = document.querySelector(".section-bonus");
-var span = document.getElementById("btnclose");
-
-var bonus = document.querySelectorAll('.section-bonus__item');
-for (var i = 0; i < bonus.length; i++) {
-    bonus[i].addEventListener('click', openBonusModal);
-    bonus[i].setAttribute('id', i);
-    bonus[i].addEventListener('click', generateInfo);
-}
-
-function openBonusModal() {
-    modalBonus.style.display = "block";
-    generateInfo();
-}
-var closeBonusModal = function closeBonusModal() {
-    modalBonus.style.display = "none";
-    section.style.pointerEvents = 'auto';
-};
-if (span) {
-    span.addEventListener('click', closeBonusModal);
-}
-
-function generateInfo() {
-    section.style.pointerEvents = 'none';
-    if (this) {
-        container.innerHTML = "<a href='#' class='bonus__close' id='btnclose'></a>";
-        container.innerHTML += "\n        <h1>" + _example2.default.bonuses[this.id].percentage + "</h1>\n        <h2>" + _example2.default.bonuses[this.id].name + "</h2>\n        <p>" + _example2.default.bonuses[this.id].text + "</p>\n        ";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var accordion = function accordion() {
+    var d = document,
+        acc = document.getElementsByClassName("accordion-container__btn-acc");
+    for (var i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
     }
-}
+};
 
-},{"../../data/example.json":43}],45:[function(require,module,exports){
+exports.default = accordion;
+
+},{}],44:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+function initAcc(elem, option) {
+    document.addEventListener('click', function (e) {
+        if (!e.target.matches(elem + ' .a-btn')) return;else {
+            if (!e.target.parentElement.classList.contains('active')) {
+                if (option == true) {
+                    var elementList = document.querySelectorAll(elem + ' .a-container');
+                    Array.prototype.forEach.call(elementList, function (e) {
+                        e.classList.remove('active');
+                    });
+                }
+                e.target.parentElement.classList.add('active');
+            } else {
+                e.target.parentElement.classList.remove('active');
+            }
+        }
+    });
+}
+initAcc('.accordion.v1', true);
+initAcc('.accordion.v2', false);
+exports.default = initAcc();
+
+},{}],45:[function(require,module,exports){
 "use strict";
 
 var modal = document.getElementById("modal-login");
@@ -4331,7 +4056,6 @@ var btn = document.getElementById("btnlogin");
 var span = document.getElementsByClassName("login__close")[0];
 
 function openModal() {
-    console.log("open");
     modal.style.display = "block";
 }
 function closeModal() {
@@ -4341,6 +4065,42 @@ btn.addEventListener('click', openModal);
 span.addEventListener('click', closeModal);
 
 },{}],46:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+var tablecaballos = function tablecaballos() {
+	var hideTable = function hideTable() {
+		var tables = document.querySelectorAll('.lorem');
+		for (var index = 0; index < tables.length; index++) {
+			tables[index].style.display = 'none';
+		}
+	}; //fin de ocultar tablas
+
+	var d = document,
+	    tabs = Array.prototype.slice.apply(d.querySelectorAll('.tabs-container-caballos__tab')),
+	    tableTap = d.querySelectorAll('.lorem');
+
+	var _loop = function _loop(index) {
+		tabs[index].addEventListener('click', function (e) {
+			var i = tabs.indexOf(e.target);
+			var x = tabs[index];
+			hideTable();
+			var table = document.querySelector('.' + x.id);
+			table.style.display = 'block';
+			table.classList.add('is-active');
+		});
+	};
+
+	for (var index = 0; index < tabs.length; index++) {
+		_loop(index);
+	}
+};
+
+exports.default = tablecaballos;
+
+},{}],47:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4368,13 +4128,13 @@ var tabs = function tabs() {
 
 exports.default = tabs;
 
-},{}],47:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.tnsPromotion = exports.tnsSingle = exports.tnsCarousell = undefined;
+exports.carouselPromotions = exports.tnsSingle = exports.tnsCarousell = undefined;
 
 var _tinySlider = require('../../../node_modules/tiny-slider/src/tiny-slider');
 
@@ -4387,22 +4147,22 @@ var tnsCarousell = exports.tnsCarousell = function tnsCarousell() {
     speed: 400,
     nav: false,
     mouseDrag: true,
-    controlsText: ['<i class="tns-carousell__prev fas fa-chevron-left" aria-label="carouselback"></i>', '<i class="tns-carousell__next fas fa-chevron-right" aria-label="carouselnext"></i>'],
+    controlsText: ['<i class="tns-carousell__prev fas fa-chevron-left"></i>', '<i class="tns-carousell__next fas fa-chevron-right"></i>'],
     responsive: {
       320: {
         items: 4
       },
       640: {
-        items: 5
-      },
-      800: {
         items: 6
       },
-      960: {
-        items: 7
-      },
-      1120: {
+      920: {
         items: 8
+      },
+      1080: {
+        items: 9
+      },
+      1200: {
+        items: 10
       }
     }
   });
@@ -4413,37 +4173,46 @@ var tnsSingle = exports.tnsSingle = function tnsSingle() {
     container: '#tnsSingle',
     items: 1,
     slideBy: 1,
+    speed: 1000,
     autoplay: true,
     autoplayButtonOutput: false,
-    speed: 1000,
     mode: 'gallery',
     mouseDrag: true,
-    controlsText: ['<i class="fas fa-chevron-left" aria-label="sliderback"></i>', '<i class="fas fa-chevron-right" aria-label="slidernext"></i>']
+    controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
   });
 };
 
-var tnsPromotion = exports.tnsPromotion = function tnsPromotion() {
+var carouselPromotions = exports.carouselPromotions = function carouselPromotions() {
   var slider = (0, _tinySlider.tns)({
-    container: '#tnsPromotion',
+    container: '#carouselPromotions',
     items: 1,
     slideBy: 1,
     swipeAngle: false,
     speed: 400,
     nav: false,
     mouseDrag: true,
-    controlsText: ['<i class="tns-promotion__prev fas fa-chevron-left" aria-label="promoback"></i>', '<i class="tns-promotion__next fas fa-chevron-right" aria-label="promonext"></i>'],
+    controlsText: ['<i class="tns-carousell__prev fas fa-chevron-left"></i>', '<i class="tns-carousell__next fas fa-chevron-right"></i>'],
     responsive: {
       320: {
         items: 1
       },
-      960: {
-        items: 3
+      640: {
+        items: 2
+      },
+      920: {
+        items: 2
+      },
+      1080: {
+        items: 2
+      },
+      1200: {
+        items: 2
       }
     }
   });
 };
 
-},{"../../../node_modules/tiny-slider/src/tiny-slider":42}],48:[function(require,module,exports){
+},{"../../../node_modules/tiny-slider/src/tiny-slider":42}],49:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4461,7 +4230,7 @@ var topNav = function topNav() {
 
 exports.default = topNav;
 
-},{}],49:[function(require,module,exports){
+},{}],50:[function(require,module,exports){
 'use strict';
 
 var _topNav = require('./components/topNav');
@@ -4470,34 +4239,45 @@ var _topNav2 = _interopRequireDefault(_topNav);
 
 var _tnsSlider = require('./components/tns-slider');
 
+var _tabs = require('./components/tabs');
+
+var _tabs2 = _interopRequireDefault(_tabs);
+
+var _accordion = require('./components/accordion');
+
+var _accordion2 = _interopRequireDefault(_accordion);
+
 var _modalLogin = require('./components/modal-login');
 
 var _modalLogin2 = _interopRequireDefault(_modalLogin);
 
-var _bonus = require('./components/bonus');
+var _dropdown = require('./components/dropdown');
 
-var _bonus2 = _interopRequireDefault(_bonus);
+var _tablecaballos = require('./components/tablecaballos');
 
-var _tabs = require('./components/tabs');
-
-var _tabs2 = _interopRequireDefault(_tabs);
+var _tablecaballos2 = _interopRequireDefault(_tablecaballos);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (function () {
 	_modalLogin2.default;
 	(0, _topNav2.default)();
+	(0, _tnsSlider.tnsCarousell)();
 	if (document.body.classList.contains('home')) {
 		(0, _tnsSlider.tnsSingle)();
-		(0, _tnsSlider.tnsPromotion)();
-		(0, _tnsSlider.tnsCarousell)();
-	} else if (document.body.classList.contains('Bonus')) {
-		_bonus2.default;
 	} else if (document.body.classList.contains('Banca')) {
 		(0, _tabs2.default)();
+	} else if (document.body.classList.contains('ReglasDeportes')) {
+		(0, _accordion2.default)();
+	} else if (document.body.classList.contains('bonus')) {
+		(0, _tnsSlider.carouselPromotions)();
+	} else if (document.body.classList.contains('ReglasDeportes')) {
+		(0, _dropdown.initAcc)();
+	} else if (document.body.classList.contains('caballos')) {
+		(0, _tablecaballos2.default)();
 	}
 })();
 
-},{"./components/bonus":44,"./components/modal-login":45,"./components/tabs":46,"./components/tns-slider":47,"./components/topNav":48}]},{},[49]);
+},{"./components/accordion":43,"./components/dropdown":44,"./components/modal-login":45,"./components/tablecaballos":46,"./components/tabs":47,"./components/tns-slider":48,"./components/topNav":49}]},{},[50]);
 
 //# sourceMappingURL=scripts-min.js.map

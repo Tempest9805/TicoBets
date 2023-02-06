@@ -1,15 +1,12 @@
 extends ../config/template
 append config
-	-currentPage		= "home"
-	-siteName			= 'MoneyBet' 
+	-currentPage		= "home" //name sction
+	-siteName			= 'PokerFran' //name site
 	-content			= 'content'
-	-pageDescription	= 'Pagina inicial de MoneyBet'
+	-pageDescription	= 'Pagina inicial de PokerFran'
 block main-header
 block main-container
-	include ../components/slider-homepage
-	include ../components/section-buttons
-	include ../components/promotion-home
+	include ../components/tns-slider
+	include ../components/app-download
 block main-footer
-	include ../components/carousel-mp
-	include ../components/section-contacto
 block scripts 

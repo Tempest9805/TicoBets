@@ -1,0 +1,10 @@
+section(class="bono")
+    div(class="bono__banner")
+        picture
+            source(media="(min-width: 640px)" srcset="assets/img/Bonuses-External/Bono-de-casino-seccion-bonus.jpg" alt="image banner bono" width="1500" height="310")
+            img(src="assets/img/Bonuses-External/Bono-de-casino-seccion-bonus.jpg" alt="image banner bono" width="1500" height="310")
+    div(class="bono__content")
+        include:markdown-it(html) ../md/bonuses/bono-bienvenidaCasino.md
+    div(class="bono__button")
+        a(class="btn btn__registered", href="registrarse.html") Registrate ya!
+    include ../components/carouselPromotions
