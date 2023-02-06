@@ -1,0 +1,6 @@
+mixin promotions(title, url, img)
+    p(class="section-promotions__title")= title 
+        a(href=`${url}`): img(class="section-promotions__img" src=`${img}` alt="image bono")
+-for (var i = 0; i < promotions.length; i++)
+    -var d = promotions[i]
+    +promotions(d.title, d.url, d.img)

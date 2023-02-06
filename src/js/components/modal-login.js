@@ -3,7 +3,6 @@ let btn = document.getElementById("btnlogin");
 let span = document.getElementsByClassName("login__close")[0];
 
 function openModal(){
-    console.log("open")
     modal.style.display = "block";
 }
 function closeModal(){

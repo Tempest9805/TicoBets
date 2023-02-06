@@ -1,0 +1,22 @@
+section(class="caballos")
+	div(class="caballos__banner")
+		picture
+			source(media="(min-width: 640px)" srcset="assets/img/Sliders/caballos.webp" alt="image banner caballos" width="1500" height="310")
+			img(src="assets/img/Sliders/caballos.webp" alt="image banner caballos" width="1500" height="310")
+	div(class="caballos__content")
+		include:markdown-it(html) ../md/footer/caballos.md
+div(class='ed-container ed-container-caballos')
+	div(class='ed-item')
+		div(class='tabs-container-caballos')
+			ul(class='tabs-container-caballos__tabs' id='tabs')
+				li(class='tabs-container-caballos__tab' id="tableOne") PISTA A
+				li(class='tabs-container-caballos__tab' id="tableTwo") PISTA B
+				li(class='tabs-container-caballos__tab' id="tableThree") PISTA C
+				li(class='tabs-container-caballos__tab' id="tableFour") GALGOS
+				li(class='tabs-container-caballos__tab' id="tableFive") INTERNACIONAL
+			
+			div(class='tabs-container-caballos__panels')
+				div(class='tabs-container-caballos__panel is-active')
+					include ../config/mixins/mixin-tablecaballos
+div(class="caballos__button")
+	a(class="btn btn__registered", href="registrarse.html") Registrate ya!

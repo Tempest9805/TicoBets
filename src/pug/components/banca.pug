@@ -1,0 +1,71 @@
+div(class='banca ed-container')
+    div(class='ed-item')
+        div(class='tabs-container')
+            ul(class='tabs-container__tabs' id='tabs')
+                li(class='tabs-container__tab is-active') Depositos
+                li(class='tabs-container__tab') Retiros
+            div(class='tabs-container__panels')
+                div(class='tabs-container__panel is-active ed-container')
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src=`assets/img/Banking/dolar.png`, alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banca/depositos/dolar.md
+                            a(href="#", class="btn btn__banca") DEPOSITA AHORA
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src=`assets/img/Banking/bitcoin.png`, alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banca/depositos/bitcoin.md
+                            a(href="#", class="btn btn__banca") DEPOSITA AHORA
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src=`assets/img/Banking/ria.png`, alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banca/depositos/ria.md
+                            a(href="#", class="btn btn__banca") DEPOSITA AHORA
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src=`assets/img/Banking/master.png`, alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banca/depositos/master.md
+                            a(href="#", class="btn btn__banca") DEPOSITA AHORA
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src=`assets/img/Banking/astropay.png`, alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banca/depositos/astropay.md
+                            a(href="#", class="btn btn__banca") DEPOSITA AHORA
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src=`assets/img/Banking/safety.png`, alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banca/depositos/safety.md
+                            a(href="#", class="btn btn__banca") DEPOSITA AHORA
+                div(class='tabs-container__panel ed-container')
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src="assets/img/Banking/dolar.png", alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banca/retiros/dolar.md
+                            a(href="#", class="btn btn__banca") RETIRA AHORA
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src="assets/img/Banking/ria.png", alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banca/retiros/ria.md
+                            a(href="#", class="btn btn__banca") RETIRA AHORA
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src="assets/img/Banking/bitcoin.png", alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banca/retiros/bitcoin.md
+                            a(href="#", class="btn btn__banca") RETIRA AHORA
+                    div(class="banca__card ed-item s-1 m-45")
+                        div(class="banca__img")
+                            img(class="banca__image", src="assets/img/Banking/astropay.png", alt="image plataforma")
+                        div(class="banca__content")
+                            include:markdown-it(html) ../md/banca/retiros/astropay.md
+                            a(href="#", class="btn btn__banca") RETIRA AHORA
+        div(class="banca__button")
+            a(href="registrarse.html" class="btn btn__registered") REGÍSTRARSE YA

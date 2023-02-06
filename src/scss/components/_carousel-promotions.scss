@@ -1,0 +1,12 @@
+.carouselPromotions {
+    max-width: 1000px;
+    margin: 0 auto;
+    &__content {
+        position: relative;
+        margin: 0 1rem;
+    }
+    &__img{
+        width: 100%;
+        height: auto;
+    }
+}

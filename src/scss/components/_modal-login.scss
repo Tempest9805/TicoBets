@@ -7,20 +7,23 @@
     position: absolute;
     left: 50%;
     top: 10%;
-    margin-left: -9.8rem;
+    margin-left: -10rem;
     border-radius: 1rem;
     z-index: 10;
     display: none;
-}
-@media (min-width: 960px) {
-    .modal-login {
-        margin-left: -28.5rem;
+
+    &__forgot-pass {
+        margin: 0 auto;
+
+        &:hover {
+            color: var(--color-orange);
+        }
     }
 }
 
 .login {
     border-radius: 10px;
-    background-color: var(--color-blue);
+    background-color: var(--color-black);
     color: var(--color-white);
     max-width: 1200px;
     display: flex;
@@ -65,10 +68,10 @@
             }
 
             &__input {
-                background-color: var(--color-blue);
+                background-color: var(--color-black);
                 border-radius: 5px;
                 padding: 0.5rem;
-                border: 1px solid var(--color-yellow);
+                border: 1px solid var(--color-orange);
                 color: var(--color-white);
                 margin: 0.5rem 0;
                 margin-bottom: 2rem;
@@ -80,9 +83,16 @@
 
             &__checkbox {
                 display: flex;
+                justify-content: center;
+                align-items: center;
                 font-size: 12px;
                 color: var(--color-text);
                 margin: 1rem 0;
+
+                input {
+                    margin: 0.5rem;
+                    margin-bottom: 0;
+                }
             }
 
             &__text {
@@ -96,21 +106,16 @@
                 justify-content: center;
                 margin: 0.5rem 0;
             }
-
-            &__img {
-                margin: 0 0.5rem;
-                max-width: 100px;
-            }
         }
     }
 
     &__close {
-        width: 4rem;
-        height: 4rem;
+        width: 3rem;
+        height: 3rem;
         color: white;
         font-size: 3rem;
         position: absolute;
-        top: 2rem;
+        top: 1rem;
         right: 2rem;
 
         &::before {

@@ -1,0 +1,19 @@
+@import '../config/vars';
+
+.powered{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0.5rem;
+
+    &__link{
+        display: flex;
+        align-items: center;
+        color: var(--text-color-white);
+    }
+    &__img{
+        width: 60px;
+        height: auto;
+        margin: 0 0.5rem;
+    }
+}

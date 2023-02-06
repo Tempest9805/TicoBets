@@ -8,6 +8,7 @@ img {
 
 // Código en línea
 :not(pre) code {
+	font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
 	background: var(--color-light);
 	color: var(--third-color);
 	padding: 0 .25em;
@@ -45,10 +46,7 @@ a {
 	padding-left: 0;
 	padding-right: 0;
 }
-.linkTerms{
-	text-decoration: underline;
-	color: var(--color-text);
-}
-strong{
-	color: var(--color-text);
+
+.tns-controls button {
+	display: none;
 }
