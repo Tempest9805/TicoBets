@@ -4157,12 +4157,6 @@ var tnsCarousell = exports.tnsCarousell = function tnsCarousell() {
       },
       920: {
         items: 8
-      },
-      1080: {
-        items: 9
-      },
-      1200: {
-        items: 10
       }
     }
   });

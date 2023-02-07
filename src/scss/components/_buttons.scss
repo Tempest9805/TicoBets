@@ -40,6 +40,9 @@
         color: var(--color-black);
         background-color: var(--color-orange);
     }
+    &__registro{
+        background-color: var(--color-orange);
+    }
     @media (min-width: 920px) {
         &__registered {
         padding: 1rem 4rem;
