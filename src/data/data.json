@@ -26,7 +26,7 @@
 		},
 		{
 			"url": "http://clsop.com/",
-			"name": "Clsop"
+			"name": "CLSOP"
 		}
 	],
 	"footerMenu": [
@@ -89,20 +89,16 @@
 	],
 	"sliderHome": [
 		{
-			"imgdesk": "assets/img/Sliders/banner-clsop-league-1920x600.webp",
-			"imgMob": "assets/img/Sliders/banner-clsop-league-1920x600.webp"
+			"imgdesk": "assets/img/Sliders/slider-peleaGallos.jpg",
+			"imgMob": "assets/img/Sliders/slider-peleaGallos.jpg"
 		},
 		{
-			"imgdesk": "assets/img/Sliders/slider03.webp",
-			"imgMob": "assets/img/Sliders/slider03.webp"
+			"imgdesk": "assets/img/Sliders/slider-spins.jpg",
+			"imgMob": "assets/img/Sliders/slider-spins.jpg"
 		},
 		{
-			"imgdesk": "assets/img/Sliders/slider01.webp",
-			"imgMob": "assets/img/Sliders/slider01.webp"
-		},
-		{
-			"imgdesk": "assets/img/Sliders/banner-Road.webp",
-			"imgMob": "assets/img/Sliders/banner-Road.webp"
+			"imgdesk": "assets/img/Sliders/slider-rapid-zoom.jpg",
+			"imgMob": "assets/img/Sliders/slider-rapid-zoom.jpg"
 		}
 	],
 	"casinoImages": [
@@ -141,34 +137,28 @@
 	],
 	"carouselmp": [
 		{
-			"img": "assets/img/Banking/dolar.png"
+			"img": "assets/img/banking-bar/pf-bitcoin.png"
 		},
 		{
-			"img": "assets/img/Banking/dolar.png"
+			"img": "assets/img/banking-bar/pf-ethereum.png"
 		},
 		{
-			"img": "assets/img/Banking/dolar.png"
+			"img": "assets/img/banking-bar/pf-ria.png"
 		},
 		{
-			"img": "assets/img/Banking/dolar.png"
+			"img": "assets/img/banking-bar/pf-mg.png"
 		},
 		{
-			"img": "assets/img/Banking/dolar.png"
+			"img": "assets/img/banking-bar/pf-mc.png"
 		},
 		{
-			"img": "assets/img/Banking/dolar.png"
+			"img": "assets/img/banking-bar/pf-visa.png"
 		},
 		{
-			"img": "assets/img/Banking/dolar.png"
+			"img": "assets/img/banking-bar/pf-safetypay.png"
 		},
 		{
-			"img": "assets/img/Banking/dolar.png"
-		},
-		{
-			"img": "assets/img/Banking/dolar.png"
-		},
-		{
-			"img": "assets/img/Banking/dolar.png"
+			"img": "assets/img/banking-bar/pf-astropay.png"
 		}
 	],
 	"promotions": [
