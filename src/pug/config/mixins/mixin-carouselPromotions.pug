@@ -1,7 +1,0 @@
-mixin carouselPromotions(url, img)
-    div: div(class='carouselPromotions__content')
-        div: img(class="carouselPromotions__img", src=`${img}` alt="image promotions" width="1920" height="600")
-        div: a(href=`${url}` class="btn btn__promo") OBTENER
--for (var i = 0; i < promotions.length; i++)
-    -var d = promotions[i]
-    +carouselPromotions(d.url, d.img)

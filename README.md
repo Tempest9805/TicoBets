@@ -9,4 +9,4 @@ Instructions:
 * ```npm run deploy``` to publish the site in gh pages
 
 Enlace:
-https://nixon-fj.github.io/pokerfran-v2/public/
+https://Tempest9805.github.io/TicoBets/public/

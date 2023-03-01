@@ -5,23 +5,27 @@
 // // LAYOUT
 @import "tabs";
 @import "accordion"; 
-@import "tns-carousell";
 
 // my components
 @import 'components/buttons';
 @import 'components/tns-slider-global';
 @import 'components/top-nav';
-@import 'components/powered-jazz';
 @import 'components/infoApp';
 @import 'components/modal-login';
 @import 'components/carousel-promotions';
 @import 'components/dropdown';
 @import 'components/sport-rules';
 @import 'components/tableCaballos.scss';
+@import 'components/cuadriculaHome1';
+@import 'components/cuadriculaHome2';
+@import 'components/cuadriculaHome3';
+
+
 
 // pages
 @import 'components/section-poker';
-@import 'components/section-promotions';
+@import 'components/section-Apuesta-Vivo';
+@import 'components/casino-en-vivo';
 @import 'components/section-casino';
 @import 'components/section-banca';
 @import './programa-lealtad';

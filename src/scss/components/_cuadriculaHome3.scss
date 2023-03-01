@@ -1,0 +1,70 @@
+    .content {
+        position: relative;
+        top: -9rem;
+    }
+    .titleContainer{
+        display: flex;
+        
+    }
+    .titulos{
+        margin-top: 2rem;
+        font-weight: 700;
+        margin-bottom: 34px;
+        background: linear-gradient(#425fff,#8c9eff,#ffffff,#F44336);
+        -webkit-background-clip: text;
+        color: #65491b00;
+        font-size: 28px;
+    }
+    .subtitulo{
+        margin-top: 4rem;
+        font-weight: 700;
+        margin-bottom: 34px;
+        color: #fff;
+        font-size: 14px;
+        position: absolute;
+        
+    }
+    .cuadGeneral3 {
+        border: 1px solid #3f51b5;
+        border-radius: .5rem;
+        min-height: 8rem;
+        position: relative;
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+
+        &__baloncestoButton{
+            border: 1px solid #3f51b5;
+            border-radius: .5rem;
+            min-height: 12rem;
+            position: relative;
+            display: flex;
+            justify-content: start;
+            align-items: flex-end;
+        }
+        &__cuadImg1{
+            background-image: url('/assets/img/caballos/caballos.jpg');
+        }
+
+        &__cuadImg{
+            border-radius: .5rem;
+            min-height: 8rem;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        @media (min-width: 1024px){
+            &__baloncestoButton{
+                height: 15rem;
+            }
+        }
+    }
+    @media (max-width: 800px) {
+        .content {
+            position: relative;
+            top: -1rem;
+            display: flex;
+            justify-content: center;
+        }
+        
+    }

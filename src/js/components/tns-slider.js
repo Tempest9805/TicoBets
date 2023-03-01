@@ -1,34 +1,9 @@
 import { tns } from "../../../node_modules/tiny-slider/src/tiny-slider" 
 
-export const tnsCarousell = () =>{
-	let slider = tns({
-        container       : '#tnsCarousell',
-        items           : 1,
-        slideBy         : 1,
-        swipeAngle      : false,
-        speed           : 400,
-        nav             : false,
-        mouseDrag       : true,
-        controlsText    : [ 
-          '<i class="tns-carousell__prev fas fa-chevron-left"></i>',
-          '<i class="tns-carousell__next fas fa-chevron-right"></i>'
-        ],
-        responsive: {
-            320: {
-                items   : 4
-              },
-            640: {
-              items     : 6
-            },
-            920: {
-              items     : 8
-            }
-          }
-    }); 
-};
 
 export const tnsSingle = () =>{
   let slider = tns({ 
+    
     container           : '#tnsSingle',
     items               : 1, 
     slideBy             : 1,

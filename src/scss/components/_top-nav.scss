@@ -9,6 +9,7 @@
 	display: flex;
 	justify-content: center;
 	z-index: 4;
+	border-bottom: 5px solid var(--color-gradient2);
 	&__container {
 		display: flex;
 		justify-content: space-between;
@@ -21,11 +22,11 @@
 		align-self: center;
 	}
 	&__logo {
-		max-height: 40px;
+		max-height: 50px;
 		display: block;
 	}
 	&__menu {
-		@include fromTo(s, l) {
+		@include fromTo(s, lg) {
 			position: fixed;
 			padding: 0 15px;
 			height: 100vh;
@@ -34,19 +35,19 @@
 			transition: right .5s;
 			overflow-y: auto;
 			top: var(--header-height);
-			right: -260px;
+			left: -260px;
 			&.is-active {
-				right: 0;
+				left: 0;
 			}
 		}
-		@include from(l) {
+		@include from(lg) {
 			align-self: center;
 			margin: 0;
 			padding: 0;
 		}
 	}
 	&__li {
-		@include fromTo(s, l) {
+		@include fromTo(s, lg) {
 			display: block;
 			margin: 0;
 		}
@@ -56,15 +57,21 @@
 	}
 	&__anchor {
 		color: var(--color-white);
-		@include fromTo(s, l) {
+		font-weight: bold;
+		padding: .3rem .0rem;
+		@include fromTo(s, lg) {
 			display: flex;
 			width: 100%;
 			height: 48px;
 			align-items: center;
+			border-top: 1px solid #0076ba;
 		}
 		&:hover{
-			color: var(--color-orange);
+			color: var(--color-white);
 			text-decoration: none;
+			background-color: #0076ba;
+			border-radius: .2rem;
+			padding: .3rem .3rem;
 		}
 	}
 	&__mb-iconMenu {
@@ -74,14 +81,14 @@
 		padding: 0;
 		span {
 			&.hamburger-inner {
-				background: var(--color-orange);
+				background: var(--color-white);
 				&::after,
 				&::before {
-					background: var(--color-orange);
+					background: var(--color-white);
 				}
 			}
 		}
-		@include from(l) {
+		@include from(lg) {
 			display: none;
 		}
 	}
@@ -89,5 +96,14 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-	}
+	}	
+}
+.top-nav::after {
+	background: linear-gradient(to right,#001380 25%,#ffffff 25%,#ff1400 50%,#ff1400 50%,#ffffff 75%,#001380 75%);
+	position: absolute;
+	content: '';
+	height: 3px;
+	right: 0;
+	left: 0;
+	bottom: 0;
 }

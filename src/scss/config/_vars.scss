@@ -1,23 +1,28 @@
 //layout
 :root {
-	--header-height: 3rem;
+	--header-height: 5rem;
 
 	@include from(l) {
-		--header-height: 4rem;
+		--header-height: 7rem;
 	}
 
 	//native color vars
-	--color-black: #111;
+	--color-border1: #ff796f;
+	--color-gradient1: linear-gradient(0deg,#e67f77 0%,rgb(197 14 0) 46%,rgb(243 119 110) 53%,rgb(243 76 64) 54%,rgb(247 102 92) 76%,rgb(251 160 153) 100%);
+	--color-gradient2: linear-gradient(0deg,#ffffff 0%,#bbbbbb 46%,#e4e4e4 53%,#dbdbdb 54%,#ffffff 76%,#FFF 100%);
+	--color-blue: #3f51b5;	
+	--color-black: #000;
 	--color-white: #fff;
 	--color-orange: #ff9c00;
 	--color-dark: #0a0a0a;
 	--color-text-white: #FFFFFF;
 	--color-gray: #1a1a1a;
 	--color-gray-lith: #757474;
-	--color-body-bg: #111;
+	--color-body-bg: #000;
 
 	// Font families
 	--alternate-font: sans-serif;
+	--font-family-main: Noto Sans;
 	--font-size: 16px;
 	--line-height: 1.6;
 }

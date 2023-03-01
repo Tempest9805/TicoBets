@@ -1,5 +1,36 @@
 @import '../config/vars';
 
+
+.horses{
+    color: var(--color-text-white);
+    &__banner{
+        height: auto;
+    }
+    &__description{
+        border-radius: .5rem;
+        border: 1px solid #0076ba;
+        width: 60%;
+        margin: 2rem auto;
+        padding: 3rem 2rem;
+        position: relative;
+        top: -5rem;
+    }
+    &__button{
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0;
+    }
+    &__title{
+        font-weight: bold;
+    }
+    &__text{
+        padding: 1rem 1rem;
+        color: var(--color-text-white);
+    }
+}
+.centrar{
+    text-align: center;
+}
 .caballos {
     h2{
         margin: 0;
@@ -8,15 +39,7 @@
     @media (min-width: 474px) {
         margin-top: 0rem;
     }
-    &__banner {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        margin-top: 1rem;
-        @media (min-width: 474px) {
-            margin-top: 5rem;
-        }
-    }
+    
     &__content {
         width: 80%;
         max-width: 1200px;

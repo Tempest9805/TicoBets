@@ -26,7 +26,8 @@
     position: relative;
     top: 1px;
     cursor: pointer;
-    &.is-active {
+
+    &.link-active {
       background: var(--color-orange);
       color: var(--color-text-white);
       position: relative;

@@ -2,103 +2,94 @@
 	"topnavmenu": [
 		{
 			"url": "poker.html",
-			"name": "Poker"
-		},
-		{
-			"url": "promociones.html",
-			"name": "Promociones"
-		},
-		{
-			"url": "programa-lealtad.html",
-			"name": "Programa de lealtad"
+			"name": "POKER"
 		},
 		{
 			"url": "deportes.html",
-			"name": "Deportes"
+			"name": "DEPORTES"
 		},
 		{
 			"url": "casino.html",
-			"name": "Casino"
+			"name": "CASINO"
 		},
 		{
-			"url": "banca.html",
-			"name": "Banca"
+			"url": "Apuesta-Vivo.html",
+			"name": "APUESTAS EN VIVO"
 		},
 		{
-			"url": "http://clsop.com/",
-			"name": "CLSOP"
+			"url": "casino-en-vivo.html",
+			"name": "CASINO EN VIVO"
+		},
+		
+		{
+			"url": "caballos.html",
+			"name": "CABALLOS"
 		}
+		
 	],
 	"footerMenu": [
 		{
 			"footerColum": [
 				{
-					"text": "Deportes",
+					"text": "Deportes en Línea",
 					"src": "deportes.html"
 				},
 				{
-					"text": "Caballos",
+					"text": "Casino en Línea",
+					"src": "casino.html"
+				},
+				{
+					"text": "Caballos en Línea",
 					"src": "caballos.html"
-				},
-				{
-					"text": "Registrate",
-					"src": "registrarse.html"
-				},
-				{
-					"text": "Recargos y pagos",
-					"src": "banca.html"
 				}
 			]
 		},
 		{
 			"footerColum": [
 				{
-					"text": "Acerca de nosotros",
+					"text": "Reglas de la Casa",
 					"src": "nosotros.html"
 				},
 				{
-					"text": "Términos y condiciones",
+					"text": "Reglas de Deportes",
 					"src": "terminos.html"
 				},
 				{
-					"text": "Juego responsable",
+					"text": "Agentes",
 					"src": "juegoresponsable.html"
-				},
-				{
-					"text": "Politica de privacidad",
-					"src": "privacidad.html"
-				}
-			]
-		},
-		{
-			"footerColum": [
-				{
-					"text": "Reglas de la casa",
-					"src": "reglas-casa.html"
-				},
-				{
-					"text": "Reglas de deportes",
-					"src": "reglas-deportes.html"
-				},
-				{
-					"text": "Reglas de poker",
-					"src": "reglas-poker.html"
 				}
 			]
 		}
 	],
 	"sliderHome": [
 		{
-			"imgdesk": "assets/img/Sliders/slider-peleaGallos.jpg",
-			"imgMob": "assets/img/Sliders/slider-peleaGallos.jpg"
+			"imgdesk": "assets/img/Sliders/TicoBets-Banner-1.jpg",
+			"imgMob": "assets/img/Mobile/march-madness-mobile.jpg",
+			"url": "",
+			"clase": "trigger1",
+			"id": ""
 		},
 		{
-			"imgdesk": "assets/img/Sliders/slider-spins.jpg",
-			"imgMob": "assets/img/Sliders/slider-spins.jpg"
+			"imgdesk": "assets/img/Sliders/slider-home-QR.jpg",
+			"imgMob": "assets/img/Mobile/slider-home-QR-mobile.jpg",
+			"url": "",
+			"clase": "trigger1",
+			"id": ""
 		},
 		{
-			"imgdesk": "assets/img/Sliders/slider-rapid-zoom.jpg",
-			"imgMob": "assets/img/Sliders/slider-rapid-zoom.jpg"
+			"imgdesk": "assets/img/Sliders/TicoBets-Banner-2.jpg",
+			"imgMob": "assets/img/Mobile/liver-dealer-mobile.jpg",
+			"url": "",
+			"clase": "trigger1",
+			"id": ""
+		}
+		,
+		{
+			"imgdesk": "assets/img/Sliders/TicoBets-Banner-CASINO-ONLINE.jpg",
+			"imgMob": "assets/img/Mobile/casino-online-mobile.jpg",
+			"url": "casino.html",
+			"clase": "",
+			"id": ""
 		}
 	],
 	"casinoImages": [
@@ -161,18 +152,6 @@
 			"img": "assets/img/banking-bar/pf-astropay.png"
 		}
 	],
-	"promotions": [
-		{
-			"title": "Bono Bienvenida Casino",
-			"url": "bienvenidaCasino.html",
-			"img": "assets/img/Bonuses-External/Bono-de-casino-seccion-bonus.jpg"
-		},
-		{
-			"title": "Bono Bienvenida para Deportes",
-			"url": "bienvenidaDeporte.html",
-			"img": "assets/img/Bonuses-External/Bono-de-bienvenida.jpg"
-		}
-	],
 	"bets" : [
 			{
 				"td1" : "Pro Football",
@@ -225,7 +204,7 @@
 					"Tipo": "Tipo",
 					"LimitesP": "Límites 1ro/2do/3ro",
 					"LimitesG": "Límites (GIMMICKS)",
-					"Rebate": "REBATE %",
+					"rebate": "REBATE %",
 					"id"	: "tableOne"
 				},
 				{
@@ -367,7 +346,7 @@
 					"Tipo": "Tipo",
 					"LimitesP": "WIN/PLACE/SHOW/LIMITS",
 					"LimitesG": "GIMMICKS LIMITS",
-					"Rebate": "REBATE %",
+					"rebate": "REBATE %",
 					"id"	: "tableTwo"
 				},
 				{
@@ -566,7 +545,7 @@
 					"Tipo": "Tipo",
 					"LimitesP": "WIN/PLACE/SHOW/LIMITS",
 					"LimitesG": "GIMMICKS LIMITS",
-					"Rebate": "REBATE %",
+					"rebate": "REBATE %",
 					"id"	: "tableThree"
 				},
 				{
@@ -909,7 +888,7 @@
 					"Tipo": "",
 					"LimitesP": "WIN/PLACE/SHOW/LIMITS",
 					"LimitesG": "GIMMICKS LIMITS",
-					"Rebate": "REBATE %",
+					"rebate": "REBATE %",
 					"id"	: "tableFour"
 				},
 				{
@@ -1003,7 +982,7 @@
 					"Tipo": "Type",
 					"LimitesP": "WIN/PLACE/SHOW LIMITS",
 					"LimitesG": "GIMMICKS LIMITS",
-					"Rebate": "REBATE %",
+					"rebate": "REBATE %",
 					"id"	: "tableFive"
 				},
 				{

@@ -8,6 +8,9 @@ html(lang='en' prefix='og: http://ogp.me/ns#', class='no-js')
 	<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
 	head
 		include utilis/metatags
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;700&display=swap" rel="stylesheet">
 		link(rel="stylesheet" href="assets/css/styles.css")
 		title= currentPage.slice(0,1).toUpperCase() + currentPage.slice(1) + " | " + siteName
 	body(class=currentPage, itemscope itemtype="http://schema.org/WebPage")
@@ -23,9 +26,7 @@ html(lang='en' prefix='og: http://ogp.me/ns#', class='no-js')
 		//- here start the Main Footer
 		footer(class='main-footer')
 			include ../components/modal-login
-			include ../components/tns-carousel-pagos
 			include ../components/footer
-			include ../components/powered-jazz
 			include ../components/chat
 			block main-footer
 		//- include ../components/bottom-nav

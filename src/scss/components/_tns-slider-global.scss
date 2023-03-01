@@ -6,6 +6,7 @@
     z-index: 1;
     width: 100%;
     top: 50%;
+   
 
     >button {
       position: absolute;
@@ -17,6 +18,7 @@
       font-size: 24px;
       opacity: 0.8;
       transition: opacity .3s ease;
+      
     }
 
     >button:hover {
@@ -39,9 +41,10 @@
     position: absolute;
     z-index: 1;
     width: 100%;
-    bottom: 0;
+    right: 0;
     text-align: center;
     margin: 10px 0;
+    
 
     [aria-controls] {
       width: 20px;
@@ -49,12 +52,11 @@
       padding: 0;
       margin: 0 5px;
       border-radius: 10px;
-      background: #f1f1f1;
       border: 0;
     }
 
     >.tns-nav-active {
-      background: #999;
+      background: #ba0000;
     }
 
     &__nav-controls {
@@ -62,7 +64,7 @@
       width: 100%;
       text-align: center;
       margin: 10px 0;
-      bottom: 0;
+      top: 0;
       z-index: 1000;
 
       [aria-controls] {

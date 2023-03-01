@@ -2,9 +2,15 @@
 
 .section-poker{
     color: var(--color-text-white);
+    &__banner{
+        height: auto;
+    }
     &__description{
+        border-radius: .5rem;
+        border: 1px solid #0076ba;
         width: 60%;
         margin: 2rem auto;
+        padding: 3rem 2rem;
     }
     &__button{
         display: flex;
@@ -12,6 +18,7 @@
         margin: 2rem 0;
     }
     &__text{
+        padding: 1rem 1rem;
         color: var(--color-text-white);
     }
 }

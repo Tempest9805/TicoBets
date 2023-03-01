@@ -11,7 +11,7 @@ p{
 }
 html {
 	box-sizing 			: border-box;
-	font-family 		: var(--main-font), var(--alternate-font);
+	font-family 		: var(--font-family-main), var(--alternate-font);
 	font-size 			: var(--font-size);
 	line-height 		:  var(--line-height);
 	color 				: var(--text-color);
@@ -31,8 +31,8 @@ body {
 	color				: var(--color-text-white);
 }
 .main-footer {
-	background 			: var(--color-first);
 	color      			: #FFF;
-	padding    			: 2rem 0;
-	margin-top 			: auto;
+	background: url('/assets/img/footer-bg.jpg') 70% bottom no-repeat;
+    padding: 367px 0 0 0;
+    background-size: 100%;
 }

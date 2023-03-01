@@ -1,9 +1,28 @@
-mixin sliderHome(imgdesk, imgMob)
+//- mixin sliderHome(imgdesk, imgMob)
+//-     div: div(class='tns-single__content')
+//-         picture 
+//-             source(media="(min-width: 640px)", srcset=`${imgdesk}`, alt="image slider" width="1920" height="600")
+//-             img(class='tns-single__img', src=`${imgMob}`, alt="image slider" width="1920" height="600")
+//- -for (var i = 0; i < sliderHome.length; i++)
+//-     -var d = sliderHome[i]
+//-     +sliderHome(d.imgdesk, d.imgMob)
+
+//-     //- 
+    
+mixin sliderHome(imgdesk, imgMob, url, clase, id)
+  -if (url !== '')
     div: div(class='tns-single__content')
-        picture 
-            source(media="(min-width: 640px)", srcset=`${imgdesk}`, alt="image slider" width="1920" height="600")
-            img(class='tns-single__img', src=`${imgMob}`, alt="image slider" width="1920" height="600")
+      a(href=`${url}` )
+        picture
+          source(media="(min-width: 640px)" srcset=`${imgdesk}`, alt="image slider", width="1920" height="600")
+          img(class='tns-single__img', src=`${imgMob}`, alt="image slider", width="1920" height="600")
+  -else 
+    div
+      div(class=`tns-single__content ${clase}` )
+        a()
+          picture 
+            source(media="(min-width: 640px)",  srcset=`${imgdesk}`, alt="image sliderTest", width="1920" height="600")
+            img(class='tns-single__img ', src=`${imgMob}`, alt="image slider", width="1920" height="600")
 -for (var i = 0; i < sliderHome.length; i++)
     -var d = sliderHome[i]
-    +sliderHome(d.imgdesk, d.imgMob)
-    
+    +sliderHome(d.imgdesk, d.imgMob, d.url, d.clase, d.id)

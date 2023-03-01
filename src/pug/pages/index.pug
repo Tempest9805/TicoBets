@@ -1,12 +1,15 @@
 extends ../config/template
 append config
 	-currentPage		= "home" //name sction
-	-siteName			= 'PokerFran' //name site
+	-siteName			= 'TicoBets' //name site
 	-content			= 'content'
-	-pageDescription	= 'Pagina inicial de PokerFran'
+	-pageDescription	= 'Pagina inicial de TicoBets'
 block main-header
 block main-container
 	include ../components/tns-slider
 	include ../components/app-download
+	include ../components/cuadriculaHome1
+	include ../components/cuadriculaHome2
+	include ../components/cuadriculaHome3
 block main-footer
 block scripts 

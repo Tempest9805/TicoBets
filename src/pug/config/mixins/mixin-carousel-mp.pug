@@ -1,6 +1,0 @@
-mixin carouselmp(img)
-    div: div(class='tns-carousell__content')
-        img(class="tns-carousell__img", src=`${img}` alt="image pay metoth" width="55" height="55")
--for (var i = 0; i < carouselmp.length; i++)
-    -var d = carouselmp[i]
-    +carouselmp(d.img)

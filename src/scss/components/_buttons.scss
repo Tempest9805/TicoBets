@@ -18,30 +18,50 @@
         font-size: 13px;
         padding: 0.5rem 1rem;
     }
+    &__irAhora {
+        background: red;
+        color: white;
+        padding: .2rem 0.5rem;
+        margin: 1rem 0.8rem;
+        font-size: 14px;
+        border-radius: .2rem;   
+    }
+    &__irAhora:hover {
+        background: black;
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+    }
     @media (min-width: 1024px) {
         font-size: 16px;
         padding: 0.5rem 1rem;
     }
     &__login {
-        border: 1px solid var(--color-orange);
+        border: 1px solid var(--color-blue);
+        background: var(--color-gradient2);
+        color: var(--color-blue);
         &:hover {
-            background-color: var(--color-black);
-            color: var(--color-orange);
+            background: var(--color-gradient2);
+            color: var(--color-blue);
         }
     }
     &__register {
-        color: var(--color-black);
-        background-color: var(--color-orange);
+        border: 1px solid var(--color-border1);
+        color: var(--color-white);
+        background: var(--color-gradient1);
+        &:hover {
+            color: var(--color-white);
+        }
     }
     &__registered {
         padding: 0.5rem 2rem;
         font-weight: bold;
         font-size: 18px;
-        color: var(--color-black);
-        background-color: var(--color-orange);
+        color: var(--color-white);
+        background: var(--color-gradient1);
     }
     &__registro{
-        background-color: var(--color-orange);
+        background: var(--color-gradient1);
     }
     @media (min-width: 920px) {
         &__registered {

@@ -4054,12 +4054,16 @@ exports.default = initAcc();
 var modal = document.getElementById("modal-login");
 var btn = document.getElementById("btnlogin");
 var span = document.getElementsByClassName("login__close")[0];
+var banner = document.getElementsByClassName("trigger1")[0];
 
 function openModal() {
     modal.style.display = "block";
 }
 function closeModal() {
     modal.style.display = "none";
+}
+if (banner) {
+    banner.addEventListener('click', openModal);
 }
 btn.addEventListener('click', openModal);
 span.addEventListener('click', closeModal);
@@ -4134,36 +4138,13 @@ exports.default = tabs;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.carouselPromotions = exports.tnsSingle = exports.tnsCarousell = undefined;
+exports.carouselPromotions = exports.tnsSingle = undefined;
 
 var _tinySlider = require('../../../node_modules/tiny-slider/src/tiny-slider');
 
-var tnsCarousell = exports.tnsCarousell = function tnsCarousell() {
-  var slider = (0, _tinySlider.tns)({
-    container: '#tnsCarousell',
-    items: 1,
-    slideBy: 1,
-    swipeAngle: false,
-    speed: 400,
-    nav: false,
-    mouseDrag: true,
-    controlsText: ['<i class="tns-carousell__prev fas fa-chevron-left"></i>', '<i class="tns-carousell__next fas fa-chevron-right"></i>'],
-    responsive: {
-      320: {
-        items: 4
-      },
-      640: {
-        items: 6
-      },
-      920: {
-        items: 8
-      }
-    }
-  });
-};
-
 var tnsSingle = exports.tnsSingle = function tnsSingle() {
   var slider = (0, _tinySlider.tns)({
+
     container: '#tnsSingle',
     items: 1,
     slideBy: 1,
@@ -4256,7 +4237,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 (function () {
 	_modalLogin2.default;
 	(0, _topNav2.default)();
-	(0, _tnsSlider.tnsCarousell)();
 	if (document.body.classList.contains('home')) {
 		(0, _tnsSlider.tnsSingle)();
 	} else if (document.body.classList.contains('Banca')) {
