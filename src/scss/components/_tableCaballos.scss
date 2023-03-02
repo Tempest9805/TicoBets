@@ -12,6 +12,7 @@
 	position: relative;
 	margin: 0;
 	table{
+		overflow-x: auto;
 		width: 100%;
 		min-width: 1000px;
 		border: 1px solid white;
@@ -43,7 +44,7 @@
 		width: 20%;
 		min-width: 100px;
 		line-height: 2;
-		padding: .5em 1em;
+		padding: .5em .5em;
 		margin-right: 1px;
 		border-bottom: none;
 		border-radius: 4px 4px 0 0;

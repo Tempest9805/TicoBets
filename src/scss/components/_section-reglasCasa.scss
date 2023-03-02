@@ -2,6 +2,19 @@
 
 .reglasCasa {
     max-width: 100%;
+    ul{
+		margin-top: 0;
+    	margin-bottom: 1rem;
+		margin-left: 3rem;
+	}
+	li{
+		padding-bottom: 1rem;
+		font-size: 18px;
+	}
+    p{
+        font-size: 20px;
+    }
+    
     @media (min-width: 474px) {
         margin-top: 0rem;
     }
@@ -23,4 +36,23 @@
         justify-content: center;
         margin: 2rem 0;
     }
+}
+.reglasCasa__table {
+	border-collapse: collapse;
+}
+
+.reglasCasa__table--td1 {
+	width: 10%;
+	padding: 5px;
+	border: 1px solid var(--color-text-white);
+	font-weight: bold;
+    text-align: center;
+
+}
+
+.reglasCasa__table--td2 {
+	border: 1px solid var(--color-text-white);
+	padding: 5px;
+	color: #fff;
+	font-weight: bold
 }

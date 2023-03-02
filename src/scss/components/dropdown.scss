@@ -15,10 +15,13 @@
 	position: relative;
 	padding: 1rem 2rem;
 	font-weight: 500;
-	background-color: var(--color-gray);
+	background-color: transparent;
 	cursor: pointer;
 	transition: all 0.4s ease-in-out;
 	border-radius: 5px;
+	border: 1px solid #fff;
+	color: #0076ba;
+	font-weight: bold;
 }
 .accordion .a-container .a-btn span {
 	display: block;
@@ -27,6 +30,7 @@
 	width: 14px;
 	right: 20px;
 	top: 18px;
+	
 }
 .accordion .a-container .a-btn span:after {
 	content: "";
@@ -55,6 +59,7 @@
 	height: auto;
 	max-height: 0;
 	overflow: hidden;
+	border: 1px solid #fff;
 }
 .accordion .a-container.active .a-btn {
 	color: var(--color-white);

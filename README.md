@@ -9,4 +9,4 @@ Instructions:
 * ```npm run deploy``` to publish the site in gh pages
 
 Enlace:
-https://Tempest9805.github.io/TicoBets/public/
+https://tempest9805.github.io/TicoBets/

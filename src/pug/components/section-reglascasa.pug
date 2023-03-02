@@ -1,9 +1,28 @@
+mixin ReglasCasa(td1, td2)
+	tr(class="reglasCasa__table--tr") 
+		td(class="reglasCasa__table--td1")= td1
+		td(class="reglasCasa__table--td2")= td2
+
 section(class="reglasCasa")
-    div(class="reglasCasa__banner")
-        picture
-            source(media="(min-width: 640px)" srcset="assets/img/Sliders/reglascasa.webp" alt="image banner reglasCasa" width="1500" height="310")
-            img(src="assets/img/Sliders/reglascasa.webp" alt="image banner reglasCasa" width="1500" height="310")
-    div(class="reglasCasa__content")
-        include:markdown-it(html) ../md/footer/reglasCasa.md
-    div(class="reglasCasa__button")
-        a(class="btn btn__registered", href="registrarse.html") Registrate ya!
+	div(class="reglasCasa__banner")
+		a(href="registrarse.html") 
+			img(src="assets/img/slider-reglas.jpg", alt="image banner")
+	div(class="reglasCasa__content")
+		h1(class='') Reglas de Deportes
+		table(class='reglasCasa__table')
+			colgroup(class='reglasCasa--colgroup')
+				col(class='reglasCasa__table--col1')
+				col(class='reglasCasa__table--col2')
+			tbody(class="reglasCasa__table--tbody")
+				-for(var i = 0; i < ReglasCasa.length ; i++)
+					-var rules = ReglasCasa[i]
+					+ReglasCasa(rules.td1, rules.td2)
+		h3(class='') PAGO ANTICIPADO DE APUESTAS
+		p Si su perfil tiene la opción de pago anticipado de apuestas combinadas, las siguientes reglas aplican:
+		br
+		ul 
+			li La opción estará; disponible ÚNICAMENTE si no hay juegos pendientes que se encuentren en acción.
+			li Si el usuario procede con el pago anticipado, debe considerar que el proceso es irreversible y final.
+			li La gerencia se reserva el derecho de crear excepciones de juegos donde no estará disponible el pago anticipado para dichas apuestas.
+			li La gerencia se reserva el derecho de limitar el acceso a esta opción de pago anticipado.
+

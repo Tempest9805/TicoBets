@@ -48,15 +48,15 @@
 			"footerColum": [
 				{
 					"text": "Reglas de la Casa",
-					"src": "nosotros.html"
+					"src": "reglas-casa.html"
 				},
 				{
 					"text": "Reglas de Deportes",
-					"src": "terminos.html"
+					"src": "reglas-deportes.html"
 				},
 				{
 					"text": "Agentes",
-					"src": "juegoresponsable.html"
+					"src": "https://agents.ticobets.com/AgentSiteV2/"
 				}
 			]
 		}
@@ -192,6 +192,124 @@
 			{
 				"td1" : "Soccer",
 				"td2" : "Si un partido es suspendido antes de completarse el tiempo del juego, y no se completa el mismo día, las apuestas sobre el resultado del partido se considerarán nulas y todas las apuestas seran devueltas. Incluye Goal Lines, Money lines and Totals."
+			}
+		],
+	"ReglasCasa" : [
+			{
+				"td1" : "1",
+				"td2" : "Todas las reglas y regulaciones aquí contenidos están sujetas a cambios y revisiones de parte del Sportsbook, Racebook & Casino sin necesidad de previo aviso escrito"
+			},
+			{
+				"td1" : "2",
+				"td2" : "Cualquier regla de deportes o caballos que no esté específicamente indicada en las reglas o regulaciones de la casa, serán decididas por las reglas oficiales de Las Vegas.."
+			},
+			{
+				"td1" : "3",
+				"td2" : "ticobets no será responsable de ningún daño o perdida alegada como resultado o causado por este sitio Web o su contenido. Esto incluye cualquier error de usuario de los contenidos, la inhabilidad de cualquier persona de cUnoctarse o de utilizar el sitio Web, retraso en las operaciones o en la cUnoxión, falla de la líneas de comunicación o cualesquiera errores u omisiones de contenido. ."
+			},
+			{
+				"td1" : "4",
+				"td2" : "Todos los clientes deben de tener la edad mínima legal de consumo de bebidas alcohólicas de su país, estado o jurisdicción en particular."
+			},
+			{
+				"td1" : "5",
+				"td2" : "Todas las reglas, regulaciones y cuotas de apuestas serán constantemente actualizadas en nuestro sitio Web, por lo cual le pedimos que se revise las reglas antes de hacer cualquier demanda a nuestro personal de servicio al cliente."
+			},
+			{
+				"td1" : "6",
+				"td2" : "ticobets se reserva el derecho de limitar o rechazar cualquier apuesta por cualquier razón y tiene el derecho de declinar apuestas de clientes que no son de estados o están fuera de la jurisdicción donde el apostar en línea es ilegal."
+			},
+			{
+				"td1" : "7",
+				"td2" : "Todas las apuestas aceptadas por ticobets serán validas, a menos que haya prueba de que hubo algún tipo de engaño, intentos de 'hacking' o que se ha intentado engañar intencionalmente."
+			},
+			{
+				"td1" : "8",
+				"td2" : "Los montos mínimos y máximos tomado en apuestas en todos los acontecimientos deportivos serán determinados por ticobets y están sujetas a cambio sin previo aviso escrito. El Sportsbook, Racebook & Casino también se reserva el derecho de ajustar o cambiar límites en cuentas individuales."
+			},
+			{
+				"td1" : "9",
+				"td2" : "ticobets no aceptará ninguna apuesta sin tener el número ni la contraseña apropiada de su cuenta a través del teléfono o Internet."
+			},
+			{
+				"td1" : "10",
+				"td2" : "Cada cliente es responsable de mantener en secreto su número de cuenta y debe hacer el esfuerzo de prevenir el uso de su cuenta personal por terceros. Cualquier transacción hecha a la cuenta en donde se hayan dado el numero y la contraseña correctos quedara como valida en nuestros archivos y dependerá únicamente del balance actual de la cuenta."
+			},
+			{
+				"td1" : "11",
+				"td2" : "Todas las cuentas se mantienen privadas y confidenciales. Todas las llamadas telefónicas serán grabadas para la protección de nuestro Negocio y de sus clientes con el fin de resolver posibles conflictos. Para pUnor una demanda sobre alguna apuesta hecha se le otorga un plazo de 7 días desde la fecha de dicha apuesta."
+			},
+			{
+				"td1" : "12",
+				"td2" : "Cuando se realizan apuestas a través de Internet, los clientes son los únicos responsables de las transacciones en sus cuentas. Por favor asegúrese de revisar sus movimientos y corrija cualquier error antes de aceptarlas y meterlas en el sistema. ticobets no se hace responsable de apuestas extraviadas o duplicadas hechas por el cliente y no atenderá peticiones de discrepancias sobre apuestas extraviadas o duplicadas. Cada cliente podrá revisar sus apuestas en la sección de ACCOUNT HISTORY del sitio Web después de cada sesión para asegurarse de que todas sus apuestas fueron aceptadas. REVISE TODAS SUS TRANSACCIones CON MUCHA ATENCION!"
+			},
+			{
+				"td1" : "13",
+				"td2" : "Las apuestas hechas a través de Internet o por teléfono podrán ser canceladas o cambiadas sise cumplen las siguientes condiciones: A- Las líneas y las probabilidades son las mismas que cuando usted hizo la apuesta B- Que no hayan transcurrido mas de 5 minutos desde que se realizo la apuesta C- Que los juegos o el evento no haya comenzado."
+			},
+			{
+				"td1" : "14",
+				"td2" : "Una vez que las apuestas sean tomadas por teléfono, el operario leerá de vuelta las apuestas realizadas. Si al leer de vuelta las apuestas todas están correctas, el cliente deberá re-confirmar éstas dando su numero de cliente y su contraseña. Si hubo algún error cometido por el operario, es responsabilidad del cliente de decirle y corregir al operario antes de dar por terminada la llamada. Una vez confirmadas las apuestas éstas serán consideradas FINALES. Si el cliente no confirma sus apuestas dando su código y contraseña y termina la llamada antes de que el operario le pueda leer de vuelta las apuestas, todas las apuestas serán consideradas validas y Finales."
+			},
+			{
+				"td1" : "15",
+				"td2" : "Si el cliente tiene problemas con el teléfono y la llamada se corta antes de que el operario le lea de vuelta sus apuestas, es responsabilidad el cliente llamar cuanto antes para verificar sus apuestas pendientes. Si el cliente le da al operario el equipo y el monto de la apuesta antes de que la llamada se interrumpa, las apuestas entrarán en nuestro sistema aunque no se hayan leído de vuelta al cliente."
+			},
+			{
+				"td1" : "16",
+				"td2" : "Las apuestas serán clasificadas (graded) una vez finalizado el evento."
+			},
+			{
+				"td1" : "17",
+				"td2" : "Los eventos de baseball, football, basketball, hockey y soccer se deben jugar en la fecha especificada para el juego. Cualquier juego que se cancele o posponga será tratado como 'no hay acción' y los fondos serán reembolsados a la cuenta. Tenis, boxeo, NASCAR y golf se deben jugar a un plazo de 7 días de la fecha originalmente programada."
+			},
+			{
+				"td1" : "18",
+				"td2" : "En cuanto a juegos suspendidos, juegos continuados y cambio de desiciones, ticobets sigue las reglas generalmente aceptadas por Las Vegas."
+			},
+			{
+				"td1" : "19",
+				"td2" : "En todas las apuestas a futuro (por ejemplo el Súper Tazón, etc.) el ganador declarado por la comisión de la liga también será el ganador para efectos de apuestas. Para efecto de apuestas en el NCAA Football, el ganador del BCS Championship game será declarado como Campeón Nacional. Ninguna apuesta de futuro contará para requisitos de 'rollover'."
+			},
+			{
+				"td1" : "20",
+				"td2" : "En apuestas de caballos, el operario le dará al cliente un 'POST TIME' una vez que el tiquete este completo. Este 'POST TIME' es el que será usado para comparar los tiempos fijados y anunciados en el sitio Web de donde se sacaran los resultados. El 'POST TIME' dado al cliente debe ser igual o menor al 'OFF TIME' dado en el sitio Web. Nuestros tiempos no son negociables y son finales. Ninguna apuesta en carreras de caballos contará para requisitos de 'Rollover'."
+			},
+			{
+				"td1" : "21",
+				"td2" : "Nuestro Sportsbook depende enteramente en la información proporcionada por el cliente a la hora de establecer una cuenta. Los desembolsos serán hechos únicamente al nombre dado en la cuenta. Los cheques o transferencias Western Union a terceras personas no se permiten."
+			},
+			{
+				"td1" : "22",
+				"td2" : "En caso de que se acreditaran fondos a la cuenta de un cliente por error, es indispensable que el cliente nos notifique el error cometido cuanto antes. Todas estas transacciones serán consideradas nulas a menos que ticobets lo notifique de otra manera."
+			},
+			{
+				"td1" : "23",
+				"td2" : "Aunque nuestro sistema de computadoras mantiene records exactos sobre el balance de nuestros clientes, es responsabilidad de cada cliente el asegurarse de que su balance esté correcto cada vez que entre a su cuenta por Internet o por vía telefónica."
+			},
+			{
+				"td1" : "24",
+				"td2" : "Todas las peticiones de pagos se aceptan de Lunes a Viernes antes de las 11am ET. Los clientes cubrirán todos los honorarios de salida. Los retiros se envían de la misma manera que se recibieron los depósitos. Todos los bonos vienen con un 'rollover' que el cliente acepta cumplir cuando se recibe."
+			},
+			{
+				"td1" : "25",
+				"td2" : "Apuestas en Casino, Futuras y Caballos no cuentan para el sportsbook como parte del 'rollover' a cumplir"
+			},
+			{
+				"td1" : "26",
+				"td2" : "El pago máximo de cualquier parlay es 500/1."
+			},
+			{
+				"td1" : "27",
+				"td2" : "El cliente debe jugar el monto del depósito antes de solicitar un pago."
+			},
+			{
+				"td1" : "28",
+				"td2" : "Ganancias después de hacer uso de Jugadas Gratis en tendrán un pago máximo de $100"
+			},
+			{
+				"td1" : "29",
+				"td2" : "Requitos de 'rollover' en los bonos pueden cambiar a discreción de ticobets según su localización geográfica."
 			}
 		],
 	"table_PistasPrincipales":[

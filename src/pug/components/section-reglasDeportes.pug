@@ -2,10 +2,31 @@ mixin bets(td1, td2)
 	tr(class="sport-rules__table--tr") 
 		td(class="sport-rules__table--td1")= td1
 		td(class="sport-rules__table--td2")= td2
-
+div(class="sport-rules__banner")
+		a(href="registrarse.html") 
+			img(src="assets/img/slider-sportsrules.jpg", alt="image banner")
 div(class='sport-rules-container')
-	h1(class='s-cols-3') Reglas de Deportes
-	h2(class='') La siguiente tabla le indica cuando un juego se considera oficial para efectos de apuestas:
+	h1(class='') Reglas de Deportes
+	ul(class="")
+		li Todos los eventos deportivos deben jugarse en la fecha y el sitio programado a menos que se especifique lo contrario. Excepciones: Auto racing, Golf, Tenis, MMA, UFC y Boxeo.
+		li Carreras de Autos, Golf, Tenis, MMA, UFC y Boxeo no están sujetos a esta regla. Las apuestas seguirán siendo válidas según el Organismo de Gobierno de cada deporte que cancele el evento.
+		li Si cualquier evento se pospone y/o se reprograma, el evento no constituirá automáticamente ninguna acción.
+		li No reconocemos juegos suspendidos, protestas o decisiones anuladas con fines de apuestas.
+		li Las reglas de Las Vegas se aplican a cualquier apuesta que no esté cubierta por las reglas y regulaciones aquí.
+		li Para los eventos de ciclismo, los ciclistas pueden emitirse al mismo tiempo, pero se les emitirá una orden de meta que se decide por el acabado fotográfico. Los resultados se tomarán de la posición oficial de finalización en el sitio web principal de eventos.
+		li Para todas las proposiciones de jugadores o equipos utilizaremos el sitio web oficial del evento deportivo para declarar al ganador. Ejemplos: WWW.NFL.COM, WWW.NBA.COM etc. Para eventos que no tienen un sitio web asociado, usaremos WWW.ESPN.COM para obtener resultados.
+	h2(class = "") PARA TODOS LOS DEPORTES Y EVENTOS:
+	p Nos reservamos el derecho de cancelar cualquier apuesta aceptada cuando la línea se publicó obviamente incorrectamente. (REGLA DE LÍNEA MALA)
+	br
+	p Las apuestas también se cancelarán cuando haya pruebas de engaño, intento de piratería o engaño experto. (REGLA DE ENGAÑO)
+	br
+	p Las apuestas realizadas en línea o por teléfono pueden ser cambiadas o canceladas por el cliente si se cumplen todas las condiciones siguientes:
+		|También nos reservamos el derecho de cancelar las apuestas realizadas después de que un partido sea final o un resultado puede deducirse de la puntuación. (REGLA DE TIEMPO MALO)
+	br
+	p Los emparejamientos que se publiquen incorrectamente se cancelarán automáticamente. Estos incluyen participantes incorrectos y el emparejamiento introducido incorrectamente en el sistema. (REGLA DE COINCIDENCIA INCORRECTA)
+	br
+	p La siguiente tabla le indica cuando un juego se considera oficial para efectos de apuestas:
+	br
 	table(class='sport-rules__table')
 		colgroup(class='sport-rules--colgroup')
 			col(class='sport-rules__table--col1')
