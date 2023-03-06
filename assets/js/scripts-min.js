@@ -4051,10 +4051,10 @@ exports.default = initAcc();
 },{}],45:[function(require,module,exports){
 "use strict";
 
-var modal = document.getElementById("modal-login");
-var btn = document.getElementById("btnlogin");
-var span = document.getElementsByClassName("login__close")[0];
-var banner = document.getElementsByClassName("trigger1")[0];
+var modal = document.getElementById("modal-casino-games");
+var span = document.getElementsByClassName("modal__close")[0];
+var banner = document.getElementsByClassName("trigger2")[0];
+var trigger2 = document.querySelectorAll(".modal-trigger2");
 
 function openModal() {
     modal.style.display = "block";
@@ -4065,10 +4065,80 @@ function closeModal() {
 if (banner) {
     banner.addEventListener('click', openModal);
 }
-btn.addEventListener('click', openModal);
+
+var _iteratorNormalCompletion = true;
+var _didIteratorError = false;
+var _iteratorError = undefined;
+
+try {
+    for (var _iterator = trigger2[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+        var element = _step.value;
+
+        element.addEventListener('click', openModal);
+    }
+} catch (err) {
+    _didIteratorError = true;
+    _iteratorError = err;
+} finally {
+    try {
+        if (!_iteratorNormalCompletion && _iterator.return) {
+            _iterator.return();
+        }
+    } finally {
+        if (_didIteratorError) {
+            throw _iteratorError;
+        }
+    }
+}
+
 span.addEventListener('click', closeModal);
 
 },{}],46:[function(require,module,exports){
+"use strict";
+
+var modal = document.getElementById("modal-login");
+var span = document.getElementsByClassName("login__close")[0];
+var banner = document.getElementsByClassName("trigger1")[0];
+var trigger = document.querySelectorAll(".modal-trigger");
+
+function openModal() {
+    modal.style.display = "block";
+}
+function closeModal() {
+    modal.style.display = "none";
+}
+if (banner) {
+    banner.addEventListener('click', openModal);
+}
+
+var _iteratorNormalCompletion = true;
+var _didIteratorError = false;
+var _iteratorError = undefined;
+
+try {
+    for (var _iterator = trigger[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+        var element = _step.value;
+
+        element.addEventListener('click', openModal);
+    }
+} catch (err) {
+    _didIteratorError = true;
+    _iteratorError = err;
+} finally {
+    try {
+        if (!_iteratorNormalCompletion && _iterator.return) {
+            _iterator.return();
+        }
+    } finally {
+        if (_didIteratorError) {
+            throw _iteratorError;
+        }
+    }
+}
+
+span.addEventListener('click', closeModal);
+
+},{}],47:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4104,7 +4174,7 @@ var tablecaballos = function tablecaballos() {
 
 exports.default = tablecaballos;
 
-},{}],47:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4132,7 +4202,7 @@ var tabs = function tabs() {
 
 exports.default = tabs;
 
-},{}],48:[function(require,module,exports){
+},{}],49:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4187,7 +4257,7 @@ var carouselPromotions = exports.carouselPromotions = function carouselPromotion
   });
 };
 
-},{"../../../node_modules/tiny-slider/src/tiny-slider":42}],49:[function(require,module,exports){
+},{"../../../node_modules/tiny-slider/src/tiny-slider":42}],50:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4205,7 +4275,7 @@ var topNav = function topNav() {
 
 exports.default = topNav;
 
-},{}],50:[function(require,module,exports){
+},{}],51:[function(require,module,exports){
 'use strict';
 
 var _topNav = require('./components/topNav');
@@ -4225,6 +4295,10 @@ var _accordion2 = _interopRequireDefault(_accordion);
 var _modalLogin = require('./components/modal-login');
 
 var _modalLogin2 = _interopRequireDefault(_modalLogin);
+
+var _modalCasinoGames = require('./components/modal-casino-games');
+
+var _modalCasinoGames2 = _interopRequireDefault(_modalCasinoGames);
 
 var _dropdown = require('./components/dropdown');
 
@@ -4249,9 +4323,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 		(0, _dropdown.initAcc)();
 	} else if (document.body.classList.contains('caballos')) {
 		(0, _tablecaballos2.default)();
+	} else if (document.body.classList.contains('casino')) {
+		_modalCasinoGames2.default;
 	}
 })();
 
-},{"./components/accordion":43,"./components/dropdown":44,"./components/modal-login":45,"./components/tablecaballos":46,"./components/tabs":47,"./components/tns-slider":48,"./components/topNav":49}]},{},[50]);
+},{"./components/accordion":43,"./components/dropdown":44,"./components/modal-casino-games":45,"./components/modal-login":46,"./components/tablecaballos":47,"./components/tabs":48,"./components/tns-slider":49,"./components/topNav":50}]},{},[51]);
 
 //# sourceMappingURL=scripts-min.js.map
