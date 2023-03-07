@@ -1,41 +1,48 @@
-@import '../config/vars';
+@import "../config/vars";
 
 .reglasCasa {
-    max-width: 100%;
-    ul{
+	max-width: 100%;
+	ul {
 		margin-top: 0;
-    	margin-bottom: 1rem;
+		margin-bottom: 1rem;
 		margin-left: 3rem;
 	}
-	li{
+	li {
 		padding-bottom: 1rem;
 		font-size: 18px;
 	}
-    p{
-        font-size: 20px;
-    }
-    
-    @media (min-width: 474px) {
-        margin-top: 0rem;
-    }
-    &__banner {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-    }
-    &__content {
-        width: 80%;
-        max-width: 1200px;
-        margin: 2rem auto;
-    }
-    &__gallerie{
-        margin-top: 2rem;
-    }
-    &__button{
-        display: flex;
-        justify-content: center;
-        margin: 2rem 0;
-    }
+	p {
+		font-size: 20px;
+	}
+
+	@media (min-width: 474px) {
+		margin-top: 0rem;
+	}
+	&__banner {
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+	}
+	&__content {
+		width: 80%;
+		max-width: 1200px;
+		margin: 2rem auto;
+
+		margin-top: -4rem;
+		margin-bottom: -5rem;
+		@media (max-width: 600px) {
+			margin-top: -4rem;
+			margin-bottom: -20rem;
+		}
+	}
+	&__gallerie {
+		margin-top: 2rem;
+	}
+	&__button {
+		display: flex;
+		justify-content: center;
+		margin: 2rem 0;
+	}
 }
 .reglasCasa__table {
 	border-collapse: collapse;
@@ -46,13 +53,12 @@
 	padding: 5px;
 	border: 1px solid var(--color-text-white);
 	font-weight: bold;
-    text-align: center;
-
+	text-align: center;
 }
 
 .reglasCasa__table--td2 {
 	border: 1px solid var(--color-text-white);
 	padding: 5px;
 	color: #fff;
-	font-weight: bold
+	font-weight: bold;
 }

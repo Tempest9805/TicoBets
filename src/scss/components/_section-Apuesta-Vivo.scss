@@ -4,6 +4,14 @@
         &__banner{
             height: auto;
         }
+        &__content{
+            margin-top: -18rem;
+            margin-bottom: -5rem;
+            @media (max-width: 600px) {
+              margin-top: -4rem;
+              margin-bottom: -20rem;
+            }
+        }
         &__description{
             border-radius: .5rem;
             border: 1px solid #0076ba;
@@ -12,6 +20,7 @@
             padding: 3rem 2rem;
             position: relative;
             top: -5rem;
+            background: black;
         }
         &__button{
             display: flex;

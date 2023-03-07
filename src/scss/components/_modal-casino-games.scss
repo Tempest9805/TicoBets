@@ -23,7 +23,7 @@
 
 .modal {
     border-radius: 10px;
-    background-color: var(--color-white);
+    background-color: var(--color-black);
     color: var(--color-white);
     max-width: 1200px;
     display: flex;
@@ -110,13 +110,13 @@
     &__close {
         width: 3rem;
         height: 3rem;
-        color: black;
+        color: white;
         font-size: 3rem;
         position: absolute;
         top: 1rem;
         right: 2rem;
         &:hover{
-            color: black;
+            color: white;
             text-decoration: none;
         }
         &::before {

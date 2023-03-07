@@ -2,6 +2,16 @@
 
 .casino{
     color: var(--color-text-white);
+    &__container{
+      margin-top: -18rem;
+      margin-bottom: -5rem;
+      @media (max-width: 600px) {
+        margin-top: -4rem;
+        margin-bottom: -20rem;
+      }
+    }
+    
+
     &__banner{
         height: auto;
     }
@@ -13,6 +23,7 @@
         padding: 3rem 2rem;
         position: relative;
         top: -5rem;
+        background: black;
     }
     &__button{
         display: flex;

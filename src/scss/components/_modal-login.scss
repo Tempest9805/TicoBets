@@ -7,28 +7,28 @@
     position: fixed;
     left: 45%;
     top: 10%;
-    margin-left: -10rem;
-    border-radius: 1rem;
+    margin-left: -9rem;
     z-index: 10;
     display: none;
 
     &__forgot-pass {
         margin: 0 auto;
+        font-size: 14px ;
 
         &:hover {
-            color: red;
+            text-decoration: underline;
         }
     }
 }
 
 .login {
-    border-radius: 10px;
+    
     background-color: var(--color-white);
-    color: var(--color-black);
+    color: #333;
     max-width: 1200px;
     display: flex;
     margin: auto;
-
+    opacity: .9;
     &__img {
         display: none;
     }
@@ -42,8 +42,9 @@
 
     &__content {
         width: 100%;
-        min-width: 20vw;
+        min-width: 350px;
         padding: .5rem;
+       
         &__header {
             margin-bottom: 2rem;
             text-align: center;
@@ -63,10 +64,11 @@
             padding-top: 1rem;
             padding-left: 1rem;
             padding-bottom: 1rem;
-            border-radius: .5rem .5rem 0 0;
+            
             &__title {
                 margin: 0;
-                font-size: 16px ;
+                font-size: 14px ;
+                font-weight: bold;
             }
 
             &__text {
@@ -78,12 +80,13 @@
         &__form {
             display: flex;
             flex-direction: column;
+            padding:0.571em 1em;
             &__p{
                 margin-top: 1rem;
                 margin-bottom: -2rem;
             }
             &__label {
-                color: var(--color-black);
+                color: #333;
                 margin-top: 1rem;
             }
 
@@ -91,10 +94,10 @@
                 background-color: var(--color-white);
                 border-radius: 5px;
                 padding: 0.5rem;
-                border: 1px solid var(--color-black);
+                border: 1px solid rgb(168, 167, 167);
                 color: var(--color-black);
                 margin: 0.5rem 0;
-                margin-bottom: 2rem;
+                
 
                 &::placeholder {
                     color: var(--color-text);
@@ -150,6 +153,7 @@
     color: white;
     background: #28a745;
     border: none;
+    margin: 1rem;
 }
 .btn__registro__login:hover{
     color: white;

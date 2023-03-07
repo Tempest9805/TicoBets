@@ -2,18 +2,19 @@ div(class="horses__content")
 div(class="horses__banner")
 	a(href="registrarse.html") 
 		img(src="assets/img/slider-caballos.jpg", alt="image banner")
+div(class="horses__container")
 	div(class="horses__description")
 		h1(class="horses__title centrar") Caballos
 		p(class="horses__text") Kentucky Derby, Preakness Stakes, Belmont Stakes, Breeders Cup, incluso la Dubai World Cup, todo en un solo lugar! Visita ahora nuestro hipódromo en línea donde tendrás acceso a más de 200 pistas en todo el mundo, los 365 días del año; realiza tu apuesta directa o exótica desde tu móvil, tableta o computadora de escritorio en los purasangres más conocidos. Sigue de cerca a el próximo Faraón Americano y conviértete en el mejor handicap con nosotros.
-div(class='ed-container ed-container-caballos')
-	div(class='ed-item')
-		div(class='tabs-container-caballos')
-			ul(class='tabs-container-caballos__tabs' id='tabs')
-				li(class='tabs-container-caballos__tab' id="tableOne") Pistas Principales
-				li(class='tabs-container-caballos__tab' id="tableTwo") Pistas Menores
-				li(class='tabs-container-caballos__tab' id="tableThree") Otras Pistas
-				li(class='tabs-container-caballos__tab' id="tableFour") Galgos
-				li(class='tabs-container-caballos__tab' id="tableFive") Internacional
-			div(class='tabs-container-caballos__panels')
-				div(class='tabs-container-caballos__panel is-active')
-					include ../config/mixins/mixin-tablecaballos
+	div(class='ed-container ed-container-caballos')
+		div(class='ed-item')
+			div(class='tabs-container-caballos')
+				ul(class='tabs-container-caballos__tabs' id='tabs')
+					li(class='tabs-container-caballos__tab' id="tableOne") Pistas Principales
+					li(class='tabs-container-caballos__tab' id="tableTwo") Pistas Menores
+					li(class='tabs-container-caballos__tab' id="tableThree") Otras Pistas
+					li(class='tabs-container-caballos__tab' id="tableFour") Galgos
+					li(class='tabs-container-caballos__tab' id="tableFive") Internacional
+				div(class='tabs-container-caballos__panels')
+					div(class='tabs-container-caballos__panel is-active')
+						include ../config/mixins/mixin-tablecaballos
