@@ -241,10 +241,10 @@ Puedes elegir usar la función de chat en vivo o chat de voz donde esté disponi
     </main>
     <footer class="main-footer">
       <section class="modal-login" id="modal-login">
-        <div class="login"> <a class="login__close" href="#"></a>
+        <div class="login"> 
           <div class="login__content">
             <div class="login__content__header">
-              <h1 class="login__content__header__title">INGRESAR</h1><a class="login__content__header__text" href="registrarse.html">O iniciar registrate</a>
+              <h2 class="login__content__header__title">INGRESO DE USUARIO<a class="login__close" href="#"></a></h2>
             </div>
             <form name="LoginForm" action="javascript:void(0)" onsubmit="BackEndLogin(this); return false">
               <div class="login__content__form">
@@ -253,13 +253,10 @@ Puedes elegir usar la función de chat en vivo o chat de voz donde esté disponi
                 <label class="login__content__form__label" for="password">Contraseña</label>
                 <input class="login__content__form__input form-control" type="password" placeholder="Contraseña" name="password" required>
                 <div class="text-center mt-2"><small class="text-danger" name="msj_error_lg"></small></div>
-                <div class="modal-login__forgot-pass"><a href="https://betslip.ticobets.ag/home/reset-pass">¿Olvidó su contraseña?</a></div>
-                <div class="login__content__form__checkbox">
-                  <input type="checkbox" name="terminos" value="true">
-                  <p class="login__content__form__text">Recordar Contraseña</p>
-                </div>
-                <button class="btn btn__registro" name="btn-login" type="submit">INGRESAR</button>
+                <button class="btn btn__registro__login" name="btn-login" type="submit">Ingresar</button>
                 <input type="hidden" name="BackEndUrl" value="https://betslip.ticobets.ag">
+                <div class="modal-login__forgot-pass"><a href="https://betslip.ticobets.ag/home/reset-pass">¿Olvidó su contraseña?</a></div>
+                <div class="login__content__form__checkbox"><a class="login__content__header__text" href="registrarse.html">No tiene Cuenta ? Click Aqui.</a></div>
               </div>
             </form>
           </div>
