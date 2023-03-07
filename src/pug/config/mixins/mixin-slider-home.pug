@@ -18,7 +18,7 @@ mixin sliderHome(imgdesk, imgMob, url, clase, id)
           img(class='tns-single__img', src=`${imgMob}`, alt="image slider", width="1920" height="600")
   -else 
     div
-      div(class=`tns-single__content ${clase}` )
+      div(class=`modal-trigger tns-single__content ${clase}` )
         a()
           picture 
             source(media="(min-width: 640px)",  srcset=`${imgdesk}`, alt="image sliderTest", width="1920" height="600")

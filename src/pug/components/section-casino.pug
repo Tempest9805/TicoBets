@@ -1,9 +1,201 @@
-section(class="casino")
-    div(class="casino__banner")
-        picture
-            source(media="(min-width: 640px)", srcset="assets/img/Sliders/casinoenvivo.jpg")
-            img(src="assets/img/Mobile/casinoenvivo-mobile.jpg", alt="image banner casino")
+div(class="casino")
     div(class="casino__content")
-        include:markdown-it(html) ../md/casino-text.md
-        div(class="casino__gallerie ed-container")
-            include ../components/json-data
+        div(class="casino__banner")
+            a(href="registrarse.html")
+                img(src="assets/img/slider-casino.jpg", alt="image banner")
+        div(class="casino__description")
+            h1(class="casino__title") Casino 
+            p(class="casino__text") ¿Eres un jugador de tragamonedas? ¿O prefieres juegos de mesa como Blackjack, Ruleta o Póker? Más de 400 juegos te esperan para ganar en grande y en la comodidad de tu mano. Nuestro amigable casino en línea 100% móvil está listo para brindarte la experiencia como si estuvieras jugando en Las Vegas. ¡Mira tus ganancias despegar!
+        .cards
+            .card
+                img(src='assets/img/Casino/FruitZen.jpg')
+                .info
+                    h1 FRUITZEN
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(512)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/AmericanBlackjack.jpg')
+                .info
+                    h1 AMERICAN BLACKJACK
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(195)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/JumboJoker.jpg')
+                .info
+                    h1 JUMBO JOKER
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(767)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/EuropeanRoulette.jpg')
+                .info
+                    h1 EUROPEAN ROULETTE
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(79)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/SugarPop2.jpg')
+                .info
+                    h1 SUGAR POP 2
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(402)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/BloodEternal.jpg')
+                .info
+                    h1 BLOOD ETERNAL
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(763)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/Lucky7.jpg')
+                .info
+                    h1 LUCKY 7
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(2)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/CaribbeanPoker.jpg')
+                .info
+                    h1 CARIBBEAN POKER
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(12)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/DeucesWild.jpg')
+                .info
+                    h1 DEUCES WILD
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(29)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/FireandSteel.jpg')
+                .info
+                    h1 FIRE AND STEEL
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(755)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/AmericanBJ.jpg')
+                .info
+                    h1 AMERICAN BLACK JACK
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(30235)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/ArabianWishes.jpg')
+                .info
+                    h1 ARABIAN WISHES
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(30054)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/FreakyF.jpg')
+                .info
+                    h1 FREAKY FRANKENSTEIN
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(30231)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/12Animals.jpg')
+                .info
+                    h1 12 ANIMALS
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(30227)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/CaribbeanPoker (1).jpg')
+                .info
+                    h1 CARIBBEAN POKER
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(30251)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/KittyCutie.jpg')
+                .info
+                    h1 KITTY CUTIE
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(30302)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/SistersLuck.jpg')
+                .info
+                    h1 SISTERS OF LUCK
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(30309)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/SingleDeckBJ.jpg')
+                .info
+                    h1 SINGLE DECK BLACKJACK
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(30247)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/HyperGalactic.jpg')
+                .info
+                    h1 HYPER GALACTIC
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(30180)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/PartyGuy.jpg')
+                .info
+                    h1 THE PARTY GUY
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(30217)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/MammaMia.jpg')
+                .info
+                    h1 MAMMA MIA
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(238)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/TreasureRoom.jpg')
+                .info
+                    h1 TREASURE ROOM
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(158)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/AtTheMovies.jpg')
+                .info
+                    h1 AT THE MOVIES
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(266)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/MegaGlam.jpg')
+                .info
+                    h1 MEGA GLAM LIFE JP
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(554)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/Sin-City-Nights.jpg')
+                .info
+                    h1 SIN CITY NIGHTS
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(719)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/FaFaTwins.jpg')
+                .info
+                    h1 FA-FA TWINS
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(692)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/FrankenslotsMonster.jpg')
+                .info
+                    h1 FRANKENSLOT'S MONSTER
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(647)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/Pinocchio.jpg')
+                .info
+                    h1 PINOCCHIO
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(520)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/Tycoons.jpg')
+                .info
+                    h1 TYCOONS PLUS
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(471)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/EventHorizon.jpg')
+                .info
+                    h1 EVENT HORIZON
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(548)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/WeekendInVegas.jpg')
+                .info
+                    h1 WEEKEND IN VEGAS
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(590)") PLAY FOR FUN
+            .card
+                img(src='assets/img/Casino/TigersClaw-.jpg')
+                .info
+                    h1 TIGER'S CLAW
+                    button(class="modal-trigger btn1") PLAY FOR REAL
+                    button(class="modal-trigger2 btn2" onclick="game(788)") PLAY FOR FUN

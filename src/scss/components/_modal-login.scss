@@ -4,7 +4,7 @@
     max-width: 1200px;
     padding: 2rem;
     margin: 0;
-    position: absolute;
+    position: fixed;
     left: 45%;
     top: 10%;
     margin-left: -10rem;
@@ -16,7 +16,7 @@
         margin: 0 auto;
 
         &:hover {
-            color: var(--color-orange);
+            color: red;
         }
     }
 }
@@ -71,7 +71,7 @@
                 background-color: var(--color-black);
                 border-radius: 5px;
                 padding: 0.5rem;
-                border: 1px solid var(--color-orange);
+                border: 1px solid var(--color-white);
                 color: var(--color-white);
                 margin: 0.5rem 0;
                 margin-bottom: 2rem;

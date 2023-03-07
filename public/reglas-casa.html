@@ -37,7 +37,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;700&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css?t=1678209980234">
     <title>Reglas casa | TicoBets</title>
   </head>
   <body class="Reglas casa" itemscope itemtype="http://schema.org/WebPage">
@@ -56,7 +56,7 @@
                         <li class="top-nav__li"><a class="top-nav__anchor" href="casino-en-vivo.html">CASINO EN VIVO</a></li>
                         <li class="top-nav__li"><a class="top-nav__anchor" href="caballos.html">CABALLOS</a></li>
           </ul>
-          <div class="top-nav__btn"><a class="btn btn__register" href="registrarse.html">UNETE</a><a class="btn btn__login" href="#" id="btnlogin">INGRESO</a></div>
+          <div class="top-nav__btn"><a class="btn btn__register" href="registrarse.html">UNETE</a><a class="modal-trigger btn btn__login" href="#" id="btnlogin">INGRESO</a></div>
         </div>
       </nav>
     </header>
@@ -214,18 +214,27 @@
                 <label class="login__content__form__label" for="password">Contraseña</label>
                 <input class="login__content__form__input form-control" type="password" placeholder="Contraseña" name="password" required>
                 <div class="text-center mt-2"><small class="text-danger" name="msj_error_lg"></small></div>
-                <div class="modal-login__forgot-pass"><a href="https://betslip.pokerfran.com/home/reset-pass">¿Olvidó su contraseña?</a></div>
+                <div class="modal-login__forgot-pass"><a href="https://betslip.ticobets.ag/home/reset-pass">¿Olvidó su contraseña?</a></div>
                 <div class="login__content__form__checkbox">
                   <input type="checkbox" name="terminos" value="true">
                   <p class="login__content__form__text">Recordar Contraseña</p>
                 </div>
                 <button class="btn btn__registro" name="btn-login" type="submit">INGRESAR</button>
-                <input type="hidden" name="BackEndUrl" value="https://betslip.pokerfran.com">
+                <input type="hidden" name="BackEndUrl" value="https://betslip.ticobets.ag">
               </div>
             </form>
           </div>
         </div>
         <script src="https://images.betimages.com/Betslip/js/quick.login.min.js"></script>
+      </section>
+      <section class="modal-casino-games" id="modal-casino-games">
+        <div class="modal"> <a class="modal__close" href="#"></a>
+          <div class="modal__content">
+            <div class="modal__content__header">
+              <div class="ratio ratio-16x9" id="modalGames"></div>
+            </div>
+          </div>
+        </div>
       </section>
       <nav class="bottom-nav" aria-label="menu pricipal">
         <div class="bottom-nav__container ed-grid s-grid-2">
@@ -252,8 +261,8 @@
             s0.parentNode.insertBefore(s1,s0);
         })();
       </script>
-    </footer>
+    </footer><script src="https://media.betimages.com/media/js/casino-games/play-for-fun.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
-    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/scripts.js?t=1678209980234"></script>
   </body>
 </html>
