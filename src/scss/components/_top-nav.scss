@@ -59,6 +59,7 @@
 		color: var(--color-white);
 		font-weight: bold;
 		padding: .3rem .0rem;
+		font-size: 14px;
 		@include fromTo(s, lg) {
 			display: flex;
 			width: 100%;
