@@ -3,11 +3,17 @@
         color: var(--color-text-white);
         &__banner{
             height: auto;
+            @media (min-width: 1400px) {
+                margin-top: 13rem;
+            }
+            @media (max-width: 600px) {
+                margin-top: 2rem;
+            }
         }
         &__content{
             margin-top: -18rem;
             margin-bottom: -5rem;
-            @media (max-width: 600px) {
+            @media (max-width: 1400px) {
               margin-top: -4rem;
               margin-bottom: -20rem;
             }
